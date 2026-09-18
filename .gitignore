@@ -1,0 +1,29 @@
+# Data — never commit. Reproduce via src/download_data.py
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+reports/figures/*.png
+reports/main_results.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# Secrets — never commit tokens or credentials
+.env
+*.key
+secrets.yaml
+
+# OS
+.DS_Store
+Thumbs.db
