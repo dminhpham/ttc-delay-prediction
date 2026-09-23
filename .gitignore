@@ -1,9 +1,3 @@
-# Data — never commit. Reproduce via src/download_data.py
-data/raw/*
-data/interim/*
-data/processed/*
-!data/**/.gitkeep
-
 # Generated outputs
 outputs/*
 !outputs/.gitkeep
