@@ -1,0 +1,801 @@
+Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+2019-08-01,504,00:45:00,Thursday,King and spadina,Diversion,94,102,B/W,4509
+2019-08-01,53,02:12:00,Thursday,king and spadina,Diversion,73,88,B/W,4530
+2019-08-01,301,03:27:00,Thursday,Humber loop,Mechanical,5,10,E/B,4574
+2019-08-01,503,05:30:00,Thursday,Kingston/Queen,Utilized Off Route,12,24,W/B,8572
+2019-08-01,501,05:43:00,Thursday,Neville Loop,Held By,10,18,W/B,4514
+2019-08-01,505,06:27:00,Thursday,Dundas/Broadview,Mechanical,4,8,E/B,1119
+2019-08-01,512,06:37:00,Thursday,Lansdowne and St.Clair,Mechanical,6,12,W/B,4431
+2019-08-01,504,07:10:00,Thursday,Broadview/Queen,Held By,5,10,E/B,4439
+2019-08-01,504,07:11:00,Thursday,Broadview/Queen,Held By,3,11,W/B,4410
+2019-08-01,503,07:15:00,Thursday,Queen/Lee av.,Investigation,12,24,W/B,3116
+2019-08-01,506,07:19:00,Thursday,College and Borden,Mechanical,5,10,W/B,4048
+2019-08-01,503,07:49:00,Thursday,Queen/Kingston road,Mechanical,12,24,E/B,8555
+2019-08-01,504,08:30:00,Thursday,Dufferin-Spadina,General Delay,7,14,B/W,
+2019-08-01,504,08:36:00,Thursday,King/York,Investigation,7,11,E/B,4504
+2019-08-01,504,09:32:00,Thursday,King/Dufferin,Held By,5,13,W/B,4444
+2019-08-01,504,09:37:00,Thursday,King/Portland,Held By,6,10,E/B,4453
+2019-08-01,506,09:46:00,Thursday,Carlaw and Gerrard,Mechanical,6,11,E/B,4103
+2019-08-01,502,09:49:00,Thursday,Queen/Sackville,Mechanical,12,24,W/B,3102
+2019-08-01,502,10:42:00,Thursday,Queen/University,Mechanical,12,24,W/B,8556
+2019-08-01,510,10:53:00,Thursday,Queens Quay and Spadina,Emergency Services,4,8,S/B,4451
+2019-08-01,509,11:19:00,Thursday,CNE Loop,Mechanical,1,1,W/B,4536
+2019-08-01,505,11:51:00,Thursday,Dundas/Bay,Investigation,4,8,E/B,8557
+2019-08-01,505,12:42:00,Thursday,Dundas/Jarvis,Investigation,4,8,E/B,1037
+2019-08-01,705,14:16:00,Thursday,Gerrard and Coxwell,Investigation,1,2,W/B,4134
+2019-08-01,501,15:04:00,Thursday,Humber Loop,Investigation,7,14,E/B,4547
+2019-08-01,501,16:30:00,Thursday,Yonge / Queen,General Delay,14,21,E/B,4534
+2019-08-01,502,16:32:00,Thursday,Kingston Rd. and Main,Mechanical,10,20,W/B,8501
+2019-08-01,504,17:01:00,Thursday,Distillery Loop,Mechanical,7,13,W/B,4450
+2019-08-01,505,17:04:00,Thursday,Dundas and Duffrin,Investigation,4,8,W/B,3138
+2019-08-01,505,18:05:00,Thursday,Dundas West Station,Mechanical,5,10,E/B,1079
+2019-08-01,510,19:14:00,Thursday,Spadina Bloor Tunnel,Overhead - Pantograph,4,8,S/B,4556
+2019-08-01,505,19:28:00,Thursday,Broadview Station,Investigation,5,10,E/B,9235
+2019-08-01,511,20:51:00,Thursday,Bathurst and Fleet,General Delay,18,25,S/B,4141
+2019-08-01,501,21:03:00,Thursday,University,Mechanical,7,14,E/B,4435
+2019-08-01,504,21:27:00,Thursday,Broadview and Dundas,Mechanical,8,16,N/B,4437
+2019-08-01,501,23:00:00,Thursday,Humber loop,Mechanical,8,16,E/B,4467
+2019-08-02,304,02:27:00,Friday,Broadview station,Held By,14,29,E/B,4469
+2019-08-02,301,02:45:00,Friday,Longbranch loop,Mechanical,4,8,E/B,4479
+2019-08-02,505,08:04:00,Friday,Broadview station,Emergency Services,4,8,W/B,8533
+2019-08-02,509,13:09:00,Friday,Harbourfront Tunnel,Investigation,4,8,E/B,4532
+2019-08-02,505,15:56:00,Friday,Broadview Station,Mechanical,4,8,W/B,1036
+2019-08-02,512,16:09:00,Friday,St Clair West Lansdowne.,Investigation,9,13,E/B,4428
+2019-08-02,512,16:33:00,Friday,St Clair West Lansdowne,Investigation,15,19,W/B,4524
+2019-08-02,505,16:46:00,Friday,Kingston Road and Pickering Ave,Mechanical,8,16,W/B,8481
+2019-08-02,512,18:17:00,Friday,St Clair West  Calendonia,Investigation,9,13,E/B,4457
+2019-08-02,505,20:16:00,Friday,Dundas West Station and Edna Ave,Investigation,5,10,E/B,1141
+2019-08-02,510,21:02:00,Friday,Spadina Queens Quay,Investigation,4,8,E/B,4426
+2019-08-02,506,22:07:00,Friday,Broadview and Gerrard,Mechanical,8,16,W/B,4110
+2019-08-02,506,22:50:00,Friday,Howard Park and Dundas,Mechanical,64,69,W/B,4171
+2019-08-03,511,00:18:00,Saturday,Bathurst and Adelaide,Emergency Services,8,16,N/B,4124
+2019-08-03,501,01:36:00,Saturday,Longbranch,Investigation,9,19,E/B,4506
+2019-08-03,501,01:58:00,Saturday,Longbranch,Mechanical,9,19,E/B,4460
+2019-08-03,501,03:17:00,Saturday,Longbranch,Mechanical,13,18,W/B,4458
+2019-08-03,506,05:44:00,Saturday,College and Crawford,Mechanical,20,40,W/B,4071
+2019-08-03,509,06:30:00,Saturday,Exhibition Loop,Overhead - Pantograph,10,20,E/B,4560
+2019-08-03,501,07:47:00,Saturday,Neville Loop,Mechanical,10,17,W/B,4489
+2019-08-03,501,08:25:00,Saturday,Queen/Spadina,Utilized Off Route,9,16,W/B,4439
+2019-08-03,504,08:45:00,Saturday,Queen/spadina,Utilized Off Route,9,17,W/B,4490
+2019-08-03,512,09:09:00,Saturday,St. Clair West Station,General Delay,7,5,B/W,4413
+2019-08-03,511,09:17:00,Saturday,Bathurst and Queen,Mechanical,7,14,N/B,4042
+2019-08-03,501,09:32:00,Saturday,Queen/Spadina,Utilized Off Route,7,10,W/B,4513
+2019-08-03,512,09:48:00,Saturday,St. Clair West Station,Investigation,6,12,E/B,4428
+2019-08-03,510,09:55:00,Saturday,Spadina and Queensquay,Diversion,8,16,S/B,4417
+2019-08-03,501,10:21:00,Saturday,King/Spadina,Utilized Off Route,7,14,W/B,4448
+2019-08-03,505,10:37:00,Saturday,Broadview Station,Mechanical,5,10,W/B,1146
+2019-08-03,505,10:37:00,Saturday,Dundas West Station,Mechanical,5,10,E/B,1146
+2019-08-03,504,11:50:00,Saturday,King/Bathurst,Held By,9,16,E/B,4515
+2019-08-03,510,12:18:00,Saturday,Spadina and Sullivan,Investigation,9,13,N/B,4433
+2019-08-03,501,13:15:00,Saturday,Triller Ave,Held By,42,47,W/B,4543
+2019-08-03,504,14:32:00,Saturday,King and Jameson,General Delay,15,20,B/W,4455
+2019-08-03,501,14:42:00,Saturday,Connaugh Ave,Mechanical,20,15,W/B,4512
+2019-08-03,504,15:08:00,Saturday,King and Bay,Held By,222,226,B/W,4455
+2019-08-03,501,15:40:00,Saturday,Russell Yard,Investigation,5,10,E/B,4526
+2019-08-03,501,19:56:00,Saturday,Wilson Park,Investigation,17,22,E/B,4422
+2019-08-03,511,20:11:00,Saturday,Bathurst and Queen,Mechanical,9,16,N/B,4480
+2019-08-03,505,20:24:00,Saturday,Dundas and  Sherbourne,Investigation,6,12,W/B,8949
+2019-08-03,506,20:29:00,Saturday,Coxwell and Gerrard,Emergency Services,1,1,E/B,4192
+2019-08-03,504,22:12:00,Saturday,Dundas West Station,Emergency Services,13,22,E/B,4500
+2019-08-03,501,22:34:00,Saturday,[Jamison,Held By,26,31,E/B,5421
+2019-08-03,501,23:07:00,Saturday,Neville Park,Mechanical,10,15,E/B,4483
+2019-08-04,501,00:11:00,Sunday,Russell yard,Investigation,10,20,W/B,4432
+2019-08-04,504,00:11:00,Sunday,Spadina and King,Diversion,12,22,B/W,4469
+2019-08-04,504,00:13:00,Sunday,Distillery Loop,Mechanical,10,20,N/B,4489
+2019-08-04,504,00:29:00,Sunday,King/Spadina-King/Bathurst,Diversion,197,207,B/W,4445
+2019-08-04,505,00:37:00,Sunday,Dundas and Bloor,Investigation,11,22,E/B,8594
+2019-08-04,504,01:36:00,Sunday,Dundas West STN,Emergency Services,18,28,S/B,4468
+2019-08-04,301,01:55:00,Sunday,Longbranch,Mechanical,10,20,W/B,4544
+2019-08-04,304,03:29:00,Sunday,King and Bathurst,Mechanical,15,30,W/B,4415
+2019-08-04,506,03:36:00,Sunday,Dundas West STN,Emergency Services,18,28,E/B,4119
+2019-08-04,306,04:33:00,Sunday,Dovercourt and College,Held By,48,78,W/B,4155
+2019-08-04,504,09:06:00,Sunday,Roncesvalles and King,Held By,6,12,E/B,4453
+2019-08-04,504,09:10:00,Sunday,Roncesvalles and King,Late Leaving Garage,6,12,N/B,4453
+2019-08-04,504,09:10:00,Sunday,Roncesvalles and King,Late Leaving Garage,6,12,N/B,4491
+2019-08-04,511,09:29:00,Sunday,Bathurst / King,Mechanical,7,14,N/B,4049
+2019-08-04,504,12:10:00,Sunday,King/Dufferin,Mechanical,8,16,W/B,4499
+2019-08-04,509,12:19:00,Sunday,Strachan and Fleet,Held By,9,16,E/B,4502
+2019-08-04,505,12:30:00,Sunday,Dundas / Beverly,Investigation,6,12,E/B,1015
+2019-08-04,511,12:35:00,Sunday,Bathurst at Queen,Mechanical,9,15,N/B,4439
+2019-08-04,504,14:35:00,Sunday,Distillery loop,Mechanical,8,17,E/B,7472
+2019-08-04,512,15:21:00,Sunday,St. Clair and Deer park,Investigation,3,8,W/B,4489
+2019-08-04,501,15:46:00,Sunday,Glen Manor,Investigation,35,41,W/B,4432
+2019-08-04,501,17:06:00,Sunday,Church,General Delay,24,14,E/B,4135
+2019-08-04,504,17:06:00,Sunday,Duffering Loop,Mechanical,8,17,E/B,4512
+2019-08-04,501,20:57:00,Sunday,Windermere,Held By,64,69,W/B,4477
+2019-08-04,505,21:48:00,Sunday,Dundas st,General Delay,9,18,B/W,8594
+2019-08-05,504,00:38:00,Monday,Broadview Station,Mechanical,10,20,S/B,4558
+2019-08-05,301,02:06:00,Monday,Longbranch loop,Mechanical,10,20,E/B,4520
+2019-08-05,304,03:04:00,Monday,Broadview Station,Investigation,15,30,S/B,4495
+2019-08-05,304,03:07:00,Monday,Broadview and Gerrard,Investigation,15,30,N/B,4435
+2019-08-05,501,06:57:00,Monday,Queen / Ossington,Mechanical,35,45,W/B,4436
+2019-08-05,501,11:17:00,Monday,Queen / Caroline,Overhead - Pantograph,28,34,E/B,4468
+2019-08-05,504,11:22:00,Monday,King/Roncy,Mechanical,8,16,W/B,4492
+2019-08-05,511,14:00:00,Monday,cne loop,Mechanical,6,12,N/B,4184
+2019-08-05,501,16:38:00,Monday,Connaught / Queen,Mechanical,17,24,E/B,4573
+2019-08-05,501,16:45:00,Monday,Kingston Rd loop,Mechanical,7,14,E/B,4436
+2019-08-05,509,17:07:00,Monday,CNE Loop,Mechanical,6,12,E/B,4463
+2019-08-05,511,18:00:00,Monday,bathurst /queen,Mechanical,24,30,N/B,4191
+2019-08-05,506,19:53:00,Monday,Russell Yard and Connaught,Mechanical,5,10,E/B,4176
+2019-08-05,511,22:18:00,Monday,Exhibition,Emergency Services,8,16,E/B,4069
+2019-08-05,505,22:23:00,Monday,Bathurst and Dundas,Utilized Off Route,9,18,W/B,1424
+2019-08-05,501,22:33:00,Monday,Kingston road,Diversion,9,18,E/B,4561
+2019-08-05,504,23:03:00,Monday,King and Distillery loop,Mechanical,9,10,W/B,4430
+2019-08-05,510,2019-08-04,Monday,spadina station,Mechanical,6,13,S/B,4421
+2019-08-06,504,00:50:00,Tuesday,Dundas West Station,Mechanical,9,18,E/B,4410
+2019-08-06,504,01:15:00,Tuesday,Dufferin Loop,Mechanical,4,8,E/B,4410
+2019-08-06,504,04:35:00,Tuesday,King/Dunn,Mechanical,8,16,E/B,4453
+2019-08-06,504,04:46:00,Tuesday,Queen/Broadview,Investigation,8,16,W/B,4538
+2019-08-06,509,04:57:00,Tuesday,Bathurst and Queen,Held By,0,0,W/B,4412
+2019-08-06,504,05:00:00,Tuesday,Broadview and Queen,Held By,0,0,W/B,4467
+2019-08-06,511,05:01:00,Tuesday,King And Bathurst,Held By,0,0,N/B,4501
+2019-08-06,509,05:04:00,Tuesday,Bathurst and Fleet,Mechanical,2,0,W/B,4454
+2019-08-06,501,05:05:00,Tuesday,Leslie and Queen,Held By,7,8,E/B,4451
+2019-08-06,510,05:05:00,Tuesday,King and Spadina,Held By,4,0,N/B,4574
+2019-08-06,509,05:10:00,Tuesday,Bathurst and Fleet,Held By,1,0,W/B,4534
+2019-08-06,511,06:33:00,Tuesday,Bathurst and King,General Delay,1,1,N/B,4465
+2019-08-06,501,06:39:00,Tuesday,Queen / Lansdowne,Investigation,16,21,W/B,4429
+2019-08-06,511,10:26:00,Tuesday,College and Bathurst,Mechanical,12,18,N/B,4516
+2019-08-06,506,10:33:00,Tuesday,College and Dundas,Mechanical,1,1,E/B,4052
+2019-08-06,506,10:58:00,Tuesday,Pape and Gerrard,Mechanical,31,37,W/B,4186
+2019-08-06,502,11:15:00,Tuesday,Queen/Coxwell,Utilized Off Route,12,24,W/B,8520
+2019-08-06,504,11:26:00,Tuesday,Broadview/Dundas,Utilized Off Route,8,16,N/B,4460
+2019-08-06,509,11:35:00,Tuesday,Queens Quay Ferry Docks,Emergency Services,10,18,E/B,4473
+2019-08-06,511,11:42:00,Tuesday,Bathurst and Nassau,Mechanical,0,0,S/B,4498
+2019-08-06,504,12:42:00,Tuesday,Dundas w stn,Held By,34,41,W/B,4575
+2019-08-06,510,12:56:00,Tuesday,Spadina and Dundas,Held By,8,12,B/W,4426
+2019-08-06,504,13:32:00,Tuesday,King/Sumach,Investigation,8,15,W/B,4494
+2019-08-06,505,14:54:00,Tuesday,Dundas and Bay,Investigation,5,10,E/B,1117
+2019-08-06,506,16:23:00,Tuesday,Gerrard St E and Broadview Ave,Mechanical,7,11,W/B,4155
+2019-08-06,501,17:14:00,Tuesday,Lakeshore & 9TH,Held By,16,26,E/B,4123
+2019-08-06,505,17:21:00,Tuesday,Dundas West Station,Utilized Off Route,5,10,,1092
+2019-08-06,505,18:10:00,Tuesday,Dundas West Station,Investigation,5,10,,3106
+2019-08-06,506,18:23:00,Tuesday,High Park Loop,Mechanical,6,12,E/B,4178
+2019-08-06,505,21:07:00,Tuesday,Dundas and Ontario,Mechanical,6,12,E/B,1021
+2019-08-06,512,21:12:00,Tuesday,St Clair and Old weston,Emergency Services,7,14,E/B,4492
+2019-08-06,506,22:10:00,Tuesday,Gerrard and Coxwell,Mechanical,7,14,E/B,4040
+2019-08-06,501,22:26:00,Tuesday,Kingston Road,Diversion,9,18,E/B,4556
+2019-08-06,501,22:55:00,Tuesday,Kingston Road and Queen,Investigation,9,18,E/B,4422
+2019-08-06,509,23:34:00,Tuesday,Union streetcar tunnel,Emergency Services,8,16,E/B,4473
+2019-08-07,504,01:19:00,Wednesday,Broadview Station,Mechanical,10,20,W/B,4456
+2019-08-07,306,03:10:00,Wednesday,Carlton and Church,Held By,15,30,E/B,4170
+2019-08-07,510,05:05:00,Wednesday,King and Spadina,Held By,6,14,N/B,4541
+2019-08-07,501,05:05:00,Wednesday,Leslie and Queen,Held By,0,0,E/B,4521
+2019-08-07,509,05:10:00,Wednesday,Bathurst and Fleet,Held By,0,0,W/B,4415
+2019-08-07,511,05:42:00,Wednesday,Fleet / Strachan,Investigation,6,12,W/B,4510
+2019-08-07,509,05:43:00,Wednesday,Flet Loop,Diversion,6,12,W/B,4539
+2019-08-07,510,06:46:00,Wednesday,Charlotte Loop,Investigation,8,16,S/B,4423
+2019-08-07,510,07:44:00,Wednesday,Spadina and King,Mechanical,8,16,N/B,4560
+2019-08-07,511,08:00:00,Wednesday,CNE Loop,Mechanical,0,0,S/B,4094
+2019-08-07,505,09:35:00,Wednesday,Dundas and Bathurst,Utilized Off Route,5,10,E/B,1007
+2019-08-07,505,10:48:00,Wednesday,Dundas West Station,Mechanical,5,10,E/B,1031
+2019-08-07,501,11:35:00,Wednesday,Queen / greenwood,Mechanical,7,14,E/B,4442
+2019-08-07,505,11:37:00,Wednesday,Dundas West Station,Mechanical,5,10,E/B,1354
+2019-08-07,501,11:45:00,Wednesday,Queen / Roncesvalles,Held By,7,13,E/B,4441
+2019-08-07,506,12:33:00,Wednesday,Coxwell and Gerrard,Mechanical,6,11,W/B,4085
+2019-08-07,501,15:02:00,Wednesday,Queen & Bathurst,Mechanical,7,14,W/B,4557
+2019-08-07,504,15:06:00,Wednesday,Broadview/Queen,Mechanical,6,12,E/B,4476
+2019-08-07,506,15:20:00,Wednesday,Gerrard St E and Coxwell Ave,Mechanical,6,12,W/B,4094
+2019-08-07,511,15:26:00,Wednesday,Bathurst and King,General Delay,3,6,S/B,4091
+2019-08-07,504,15:30:00,Wednesday,Queen/Broadview,Late Leaving Garage,5,11,W/B,4472
+2019-08-07,505,15:32:00,Wednesday,Broadview Stn.,Late Leaving Garage,5,4,W/B,1128
+2019-08-07,505,15:59:00,Wednesday,Dundas West Stn.,Utilized Off Route,,,E/B,1590
+2019-08-07,512,17:44:00,Wednesday,St. Clair West Station,Mechanical,7,14,W/B,4424
+2019-08-07,504,18:16:00,Wednesday,Dufferin Loop,Mechanical,6,12,E/B,4476
+2019-08-07,505,18:25:00,Wednesday,Dundas West Stn.,Late Leaving Garage,4,8,E/B,1258
+2019-08-07,504,20:10:00,Wednesday,King/Yonge,Held By,12,20,W/B,4544
+2019-08-07,506,21:52:00,Wednesday,College and Lansdowne,Mechanical,5,10,W/B,4050
+2019-08-07,505,22:01:00,Wednesday,Dufferin,Utilized Off Route,6,12,W/B,1413
+2019-08-07,505,22:01:00,Wednesday,Broadview station,Utilized Off Route,9,18,W/B,3110
+2019-08-07,501,22:25:00,Wednesday,Kingston road and Queen,Diversion,9,18,E/B,4573
+2019-08-07,511,23:32:00,Wednesday,Bathurst and Ulster,Emergency Services,42,50,B/W,4049
+2019-08-07,509,23:47:00,Wednesday,Exhibition,Utilized Off Route,8,16,E/B,4488
+2019-08-08,306,02:30:00,Thursday,Carlton and Church,Held By,17,26,E/B,4012
+2019-08-08,306,03:15:00,Thursday,Carlton and Gerrard,Held By,7,37,W/B,4100
+2019-08-08,512,05:06:00,Thursday,King/Dufferin,Mechanical,6,12,E/B,4514
+2019-08-08,506,05:22:00,Thursday,Gerrard and Coxwell,Mechanical,11,22,E/B,4176
+2019-08-08,501,05:22:00,Thursday,Queen / Lansdowne,Diversion,28,36,W/B,4556
+2019-08-08,511,06:48:00,Thursday,Bathurst and King,General Delay,0,0,N/B,4540
+2019-08-08,501,09:31:00,Thursday,Queen / Lee,Mechanical,7,14,W/B,4473
+2019-08-08,506,09:44:00,Thursday,Gerrard and Coxwell,Mechanical,1,1,E/B,4077
+2019-08-08,511,10:27:00,Thursday,Bathurst and Front,General Delay,10,16,N/B,4574
+2019-08-08,506,10:32:00,Thursday,Parkside and Howard Park,Emergency Services,1,1,W/B,4179
+2019-08-08,506,11:25:00,Thursday,Howard Park and Roncesvalles,Mechanical,5,11,W/B,4012
+2019-08-08,505,12:49:00,Thursday,Dundas West Stn,Mechanical,5,10,E/B,1048
+2019-08-08,502,13:35:00,Thursday,Queen and Parliament,Investigation,10,20,W/B,8454
+2019-08-08,506,13:40:00,Thursday,St. Helens and College,Held By,10,16,W/B,4012
+2019-08-08,501,14:18:00,Thursday,Queen & York,Investigation,40,47,W/B,4536
+2019-08-08,805,14:21:00,Thursday,Spadina and King,General Delay,9,18,N/B,4503
+2019-08-08,504,14:46:00,Thursday,Roncesvalles/Bloor,Investigation,6,12,E/B,4434
+2019-08-08,501,15:38:00,Thursday,Queen & Greenwood,Mechanical,7,14,W/B,4469
+2019-08-08,502,15:41:00,Thursday,Bingham Loop,Held By,12,24,W/B,3141
+2019-08-08,505,18:49:00,Thursday,Dundas and Lansdowne,Held By,4,8,W/B,1044
+2019-08-08,506,21:55:00,Thursday,College and Spadina,Utilized Off Route,7,14,E/B,4048
+2019-08-08,504,22:21:00,Thursday,Roncesvalles and Boustead,Held By,5,10,S/B,4527
+2019-08-08,510,22:46:00,Thursday,Spadina and Bremner,Investigation,23,31,N/B,4518
+2019-08-09,504,00:58:00,Friday,Broadview and Queen,Investigation,56,66,S/B,4429
+2019-08-09,504,01:09:00,Friday,King street,General Delay,10,20,B/W,4444
+2019-08-09,506,04:58:00,Friday,Gerrard and Parliament,Mechanical,30,45,W/B,4143
+2019-08-09,511,05:12:00,Friday,Queen / Bathurst,Investigation,16,23,N/B,4075
+2019-08-09,504,05:31:00,Friday,Queen and Broadview,General Delay,3,0,W/B,4444
+2019-08-09,505,05:48:00,Friday,Broadview Station,Mechanical,10,16,W/B,8568
+2019-08-09,301,06:04:00,Friday,Leslie / Commissioners,Investigation,1,1,S/B,4548
+2019-08-09,504,07:08:00,Friday,Roncesvalles and Queen,Late Leaving Garage,2,7,N/B,4481
+2019-08-09,503,07:16:00,Friday,Queen and Coxwell,Mechanical,8,16,W/B,8479
+2019-08-09,509,11:08:00,Friday,Fleet and Strachan,Held By,58,105,E/B,4539
+2019-08-09,511,11:09:00,Friday,Fleet and Strachan,Held By,61,67,N/B,4575
+2019-08-09,502,11:30:00,Friday,Duncan and Richmond,Utilized Off Route,10,20,E/B,8945
+2019-08-09,501,12:14:00,Friday,Queen & Parliament,Mechanical,33,40,E/B,4550
+2019-08-09,512,12:21:00,Friday,St. Clair and Spadina,Mechanical,15,20,W/B,4457
+2019-08-09,510,14:08:00,Friday,Spadina and Queens Quay,Emergency Services,9,18,N/B,4441
+2019-08-09,504,15:20:00,Friday,Broadview/Queen,Held By,5,11,W/B,4507
+2019-08-09,511,15:48:00,Friday,Bathurst and King,General Delay,3,6,S/B,4085
+2019-08-09,502,17:03:00,Friday,Queen St E and Yonge St,Investigation,4,16,E/B,8485
+2019-08-09,504,17:12:00,Friday,Broadview/Dundas,Investigation,5,11,E/B,4459
+2019-08-09,511,17:13:00,Friday,Bathurst Ave and Harbord St,Held By,37,44,S/B,4433
+2019-08-09,512,17:37:00,Friday,St. Clair and Keele,Investigation,4,8,W/B,4434
+2019-08-09,506,18:31:00,Friday,Ossington and College,Investigation,19,25,W/B,4081
+2019-08-09,512,19:35:00,Friday,Gunns Loop,Investigation,4,8,E/B,4434
+2019-08-09,511,20:45:00,Friday,Fleet loop,Mechanical,8,16,W/B,4057
+2019-08-09,510,22:29:00,Friday,Queens Quay loop,Emergency Services,8,16,N/B,4518
+2019-08-09,501,22:30:00,Friday,Kingston Road and Queen,Diversion,9,18,E/B,4477
+2019-08-09,504,22:56:00,Friday,Roncy and Howard Park,Mechanical,10,20,N/B,4548
+2019-08-10,510,01:03:00,Saturday,York and Queens Quay,Investigation,8,16,N/B,4511
+2019-08-10,301,01:06:00,Saturday,lakeshore and Kipling Av,Investigation,9,10,,
+2019-08-10,512,02:02:00,Saturday,St Clair station,Emergency Services,4,8,E/B,4435
+2019-08-10,300,02:46:00,Saturday,Spadina and King,Diversion,10,20,B/W,4494
+2019-08-10,512,04:41:00,Saturday,St. Clair / Bathurst,Diversion,13,,W/B,4432
+2019-08-10,505,05:38:00,Saturday,Dundas / Yonge,Mechanical,12,24,W/B,1023
+2019-08-10,504,06:46:00,Saturday,King and Dufferin,Mechanical,10,20,E/B,4462
+2019-08-10,504,07:22:00,Saturday,Dundas West Station to Broadview Station,General Delay,15,25,B/W,4575
+2019-08-10,506,07:56:00,Saturday,Howard Park and Dundas,Held By,6,16,E/B,4042
+2019-08-10,505,08:52:00,Saturday,Dundas Spadina,Investigation,4,8,W/B,1140
+2019-08-10,505,09:20:00,Saturday,Sherbourne Dundas,Investigation,4,8,W/B,8489
+2019-08-10,4,10:13:00,Saturday,Queen / Gladstone,Held By,9,15,B/W,4513
+2019-08-10,504,10:16:00,Saturday,Queen and Gladstone,Held By,8,15,W/B,4549
+2019-08-10,501,11:15:00,Saturday,Neville to Humber Loop,General Delay,9,15,B/W,
+2019-08-10,509,12:03:00,Saturday,Strachan and Fleet,Held By,8,14,B/W,4481
+2019-08-10,506,12:24:00,Saturday,Gerrad and Coxwell,Mechanical,6,13,E/B,4104
+2019-08-10,510,12:30:00,Saturday,Spadina Front,Investigation,34,38,S/B,4473
+2019-08-10,510,14:10:00,Saturday,king/spadina,General Delay,8,12,B/W,4463
+2019-08-10,509,14:28:00,Saturday,Union Station,Mechanical,6,12,W/B,4556
+2019-08-10,510,14:50:00,Saturday,q.quay loop,Mechanical,4,8,N/B,4423
+2019-08-10,501,15:03:00,Saturday,York Street,General Delay,24,29,B/W,4409
+2019-08-10,504,15:36:00,Saturday,Queeen and Church,Investigation,7,14,E/B,4558
+2019-08-10,505,16:15:00,Saturday,dundas/lansdowne,Investigation,5,10,E/B,3138
+2019-08-10,501,17:19:00,Saturday,Long Branch,Mechanical,41,48,E/B,4012
+2019-08-10,509,19:00:00,Saturday,Fleet and Strachan,General Delay,10,16,B/W,
+2019-08-10,510,19:15:00,Saturday,spadina/dundas,Investigation,8,13,N/B,4520
+2019-08-10,506,22:34:00,Saturday,S. Clair and Robina,Investigation,5,10,E/B,4474
+2019-08-10,512,23:26:00,Saturday,St. Clair and Earlscourt,Held By,5,10,W/B,4475
+2019-08-10,504,23:46:00,Saturday,Broadview and Dundas,Held By,32,42,S/B,4477
+2019-08-10,506,23:49:00,Saturday,Gerrard and Woodfield,Held By,50,58,B/W,4085
+2019-08-11,50,00:00:00,Sunday,Nevelle Park,Mechanical,9,19,W/B,4512
+2019-08-11,511,00:45:00,Sunday,Fort York and Fleet.,Mechanical,9,17,W/B,4081
+2019-08-11,506,01:16:00,Sunday,College and Bathurst,Mechanical,10,20,W/B,4170
+2019-08-11,301,01:39:00,Sunday,Long Branch Loop,Mechanical,10,20,E/B,4532
+2019-08-11,501,03:06:00,Sunday,Ossington & Queen,Mechanical,9,19,W/B,4476
+2019-08-11,504,05:49:00,Sunday,king/spadina,Investigation,10,20,W/B,4540
+2019-08-11,504,06:00:00,Sunday,queen/bathurst,Mechanical,10,20,E/B,4427
+2019-08-11,501,06:48:00,Sunday,Queen / Kingstone Rd,Mechanical,6,12,E/B,4428
+2019-08-11,512,08:11:00,Sunday,Bathurst and St Clair,Late Leaving Garage,6,12,W/B,4493
+2019-08-11,504,08:29:00,Sunday,Queen Dufferin,Overhead - Pantograph,1,1,W/B,4533
+2019-08-11,505,11:25:00,Sunday,Dundas Beverley,Investigation,4,8,E/B,8441
+2019-08-11,504,12:53:00,Sunday,Queen Spadina,Investigation,4,8,E/B,4517
+2019-08-11,501,13:45:00,Sunday,Queen / Kingston Rd,Mechanical,6,12,E/B,4423
+2019-08-11,505,13:59:00,Sunday,DWS,Mechanical,6,12,E/B,1379
+2019-08-11,506,14:54:00,Sunday,Main STN,Emergency Services,8,14,W/B,4146
+2019-08-11,510,15:13:00,Sunday,Sullivan,General Delay,8,14,B/W,4531
+2019-08-11,510,18:03:00,Sunday,Spadina Station,Investigation,6,12,S/B,4541
+2019-08-11,504,19:28:00,Sunday,Roncesvalles Yard,Investigation,1,,W/B,4546
+2019-08-11,501,20:27:00,Sunday,Lakeshore and Islington,Held By,9,19,W/B,4123
+2019-08-11,501,22:18:00,Sunday,Lakeshore and Lousie,Held By,10,19,W/B,4141
+2019-08-11,501,22:53:00,Sunday,Lakeshore and 28th,Mechanical,10,20,E/B,4124
+2019-08-11,501,23:00:00,Sunday,Queen and Kington Rd,Emergency Services,19,29,E/B,4495
+2019-08-12,506,01:14:00,Monday,Gerrard and Coxwell,Mechanical,11,22,E/B,4171
+2019-08-12,509,01:22:00,Monday,Fleet Loop,Emergency Services,15,25,W/B,4472
+2019-08-12,506,01:24:00,Monday,College and lansdown,Investigation,11,22,E/B,4156
+2019-08-12,512,02:44:00,Monday,Roncesvalles Yard,Emergency Services,1,2,N/B,4549
+2019-08-12,505,05:18:00,Monday,Mount Dennis Garage,Mechanical,5,10,W/B,1415
+2019-08-12,505,05:22:00,Monday,Broadview Stn,Mechanical,7,14,W/B,8586
+2019-08-12,512,06:14:00,Monday,Bathurst and St Claire,Late Leaving Garage,8,8,W/B,4430
+2019-08-12,506,07:31:00,Monday,Gerrard and Coxwell,Mechanical,5,11,W/B,4165
+2019-08-12,501,08:22:00,Monday,Kingston Rd.,Investigation,12,24,E/B,8654
+2019-08-12,505,12:19:00,Monday,Dundas West Station,Mechanical,5,10,,9227
+2019-08-12,511,12:21:00,Monday,Fleet and Bastion,Mechanical,5,10,W/B,4190
+2019-08-12,511,12:34:00,Monday,Bathurst and Niagara,Mechanical,34,39,S/B,4170
+2019-08-12,511,12:40:00,Monday,Bathurst and Niagara,Held By,34,39,S/B,4069
+2019-08-12,505,12:50:00,Monday,Dundas West Station,Utilized Off Route,5,10,,1009
+2019-08-12,511,13:05:00,Monday,Bathurst Station,Investigation,14,19,,4410
+2019-08-12,504,13:08:00,Monday,King/Dufferin,Investigation,8,15,W/B,4516
+2019-08-12,506,13:10:00,Monday,Yonge and Carlton,Emergency Services,13,19,W/B,4176
+2019-08-12,506,13:23:00,Monday,Carlton and Yonge St.,Mechanical,5,11,W/B,4176
+2019-08-12,501,13:41:00,Monday,Lakeshore & Long Branch Ave,Held By,16,25,B/W,4135
+2019-08-12,505,14:56:00,Monday,DWS,Mechanical,5,10,E/B,8945
+2019-08-12,505,15:33:00,Monday,Broadview Station,Mechanical,5,10,W/B,8448
+2019-08-12,506,15:53:00,Monday,College / Ossington,Held By,34,40,E/B,4089
+2019-08-12,505,17:41:00,Monday,Parliament Street,Investigation,5,10,W/B,1113
+2019-08-12,805,18:04:00,Monday,Queen & Leslie,Mechanical,0,0,E/B,4145
+2019-08-12,501,18:04:00,Monday,Queen & Leslie,Held By,10,17,E/B,4503
+2019-08-12,505,18:05:00,Monday,Yonge Street,Held By,9,14,B/W,1009
+2019-08-12,501,19:19:00,Monday,Lakeshore & Longbranch Ave.,Held By,8,17,E/B,4155
+2019-08-12,505,20:15:00,Monday,Broadview Station,Mechanical,5,10,W/B,8442
+2019-08-12,504,22:30:00,Monday,Queen St and Dufferin St,Mechanical,1,1,S/B,4533
+2019-08-12,509,23:28:00,Monday,CNE LOOP,Investigation,8,16,E/B,4502
+2019-08-13,501,05:43:00,Tuesday,Queen / Kingston Rd,Mechanical,8,16,W/B,4509
+2019-08-13,505,07:10:00,Tuesday,11 62 Weston Road,Mechanical,7,14,S/B,1595
+2019-08-13,506,07:16:00,Tuesday,Main Station,Utilized Off Route,1,1,W/B,8853
+2019-08-13,506,07:21:00,Tuesday,Main Station,Utilized Off Route,1,1,W/B,8635
+2019-08-13,506,07:27:00,Tuesday,Main Station,Utilized Off Route,1,1,W/B,8889
+2019-08-13,501,07:35:00,Tuesday,Lakeshore / Kipling,Mechanical,38,47,E/B,4146
+2019-08-13,506,07:43:00,Tuesday,Main Station,Utilized Off Route,1,1,W/B,8789
+2019-08-13,505,10:28:00,Tuesday,Sundas West Station,Mechanical,7,14,W/B,1110
+2019-08-13,505,11:04:00,Tuesday,Dundas West Station,Mechanical,7,14,E/B,1143
+2019-08-13,505,11:05:00,Tuesday,Dundas West Station,Mechanical,7,14,E/B,1415
+2019-08-13,504,11:30:00,Tuesday,Dundas/Bloor,Emergency Services,8,16,S/B,4518
+2019-08-13,505,11:39:00,Tuesday,Broadview Station,Mechanical,7,14,E/B,8949
+2019-08-13,504,12:22:00,Tuesday,King/Victoria,Investigation,7,14,E/B,4528
+2019-08-13,505,12:55:00,Tuesday,DWS,Mechanical,5,10,E/B,1028
+2019-08-13,505,13:50:00,Tuesday,DWS,Mechanical,5,10,E/B,8511
+2019-08-13,505,14:19:00,Tuesday,DWS,Mechanical,5,10,E/B,1422
+2019-08-13,501,15:41:00,Tuesday,Leslie Barns,Late Leaving Garage,7,14,E/B,4575
+2019-08-13,501,15:54:00,Tuesday,Humber Loop,Mechanical,9,18,W/B,4145
+2019-08-13,501,16:06:00,Tuesday,Queen & Sumach,Mechanical,6,13,E/B,4501
+2019-08-13,501,16:31:00,Tuesday,Queensway and Roncy,Utilized Off Route,,8,E/B,7928
+2019-08-13,501,16:31:00,Tuesday,Queensway and Roncy,Utilized Off Route,16,24,E/B,7918
+2019-08-13,506,16:49:00,Tuesday,College and Landsdowne,Mechanical,6,12,W/B,4184
+2019-08-13,505,18:05:00,Tuesday,Broadview Station,Investigation,5,10,W/B,8499
+2019-08-13,501,18:43:00,Tuesday,Queen & Connaught,Mechanical,7,13,W/B,4560
+2019-08-13,511,19:17:00,Tuesday,CNE,Mechanical,6,10,N/B,4190
+2019-08-13,512,19:44:00,Tuesday,Gunn Loop,Mechanical,7,13,E/B,4572
+2019-08-13,506,19:45:00,Tuesday,Wolsley Loop,Utilized Off Route,7,11,E/B,4123
+2019-08-13,501,21:00:00,Tuesday,Kingston Road and Queen,Diversion,7,14,E/B,4532
+2019-08-13,504,21:05:00,Tuesday,Broadview Station,Mechanical,8,16,S/B,4542
+2019-08-13,501,23:11:00,Tuesday,Longbranch loop,Emergency Services,33,37,E/B,4484
+2019-08-13,501,23:26:00,Tuesday,Longbranch loop,Mechanical,3,6,W/B,4178
+2019-08-13,501,23:44:00,Tuesday,Neville loop,Mechanical,9,18,W/B,4540
+2019-08-14,511,00:03:00,Wednesday,Bathurst Station,Mechanical,8,16,S/B,4050
+2019-08-14,504,00:20:00,Wednesday,Dufferin Loop,Mechanical,8,16,N/B,4573
+2019-08-14,510,01:48:00,Wednesday,Charlotte Loop,Diversion,95,105,S/B,4516
+2019-08-14,506,02:49:00,Wednesday,Gerrard and Coxwell,Held By,7,15,E/B,4171
+2019-08-14,304,02:53:00,Wednesday,Broadview Station,Mechanical,15,30,S/B,4534
+2019-08-14,301,03:04:00,Wednesday,Queen and Victoria,Emergency Services,12,27,W/B,4542
+2019-08-14,306,04:45:00,Wednesday,Gerrard and Coxwell,Mechanical,20,1,W/B,4171
+2019-08-14,506,07:38:00,Wednesday,Gerrard and Parliament,Mechanical,6,11,W/B,4021
+2019-08-14,506,07:38:00,Wednesday,Gerrard and Broadview,Held By,132,138,E/B,4104
+2019-08-14,501,08:12:00,Wednesday,Queen / Sackville,Held By,21,27,B/W,4489
+2019-08-14,505,08:51:00,Wednesday,Broadview Station,Utilized Off Route,5,10,,3136
+2019-08-14,501,09:00:00,Wednesday,Queen / Church,Emergency Services,1,1,E/B,8919
+2019-08-14,505,09:03:00,Wednesday,Broadview Station,Utilized Off Route,5,10,,3124
+2019-08-14,506,09:35:00,Wednesday,Gerrard and St. Mathews,Held By,13,19,W/B,4146
+2019-08-14,506,10:02:00,Wednesday,Broadview and Gerrard,Investigation,6,11,E/B,4195
+2019-08-14,502,10:16:00,Wednesday,Bingham Loop,Utilized Off Route,10,20,,8582
+2019-08-14,506,10:30:00,Wednesday,Gerrard and Ashdale,General Delay,30,29,B/W,4053
+2019-08-14,505,10:34:00,Wednesday,Dundas West Station,Mechanical,5,10,,3126
+2019-08-14,511,10:34:00,Wednesday,Bathurst between Fleet and King,General Delay,15,10,N/B,
+2019-08-14,504,13:49:00,Wednesday,Distillery loop,Held By,4,10,W/B,4518
+2019-08-14,512,13:55:00,Wednesday,Rocesvalles Yard,Late Leaving Garage,12,17,E/B,4538
+2019-08-14,504,15:05:00,Wednesday,King/Peter,Investigation,8,14,W/B,4551
+2019-08-14,512,15:38:00,Wednesday,St. Clair Station,Emergency Services,31,35,W/B,4537
+2019-08-14,504,15:40:00,Wednesday,King/University,Mechanical,6,12,W/B,4544
+2019-08-14,511,15:42:00,Wednesday,Bathurst and King,General Delay,3,6,S/B,4184
+2019-08-14,505,15:49:00,Wednesday,Dundas and Bathurst,Utilized Off Route,4,8,W/B,9298
+2019-08-14,501,18:33:00,Wednesday,Lakeshore & Longbranch Ave,Held By,7,15,W/B,4124
+2019-08-14,506,18:50:00,Wednesday,Gerrard and Coxwell,Mechanical,6,12,E/B,4094
+2019-08-14,501,19:10:00,Wednesday,Lakeshore & Royal York,Investigation,67,75,E/B,4089
+2019-08-14,505,19:19:00,Wednesday,Dundas West Stn,Utilized Off Route,6,12,W/B,8591
+2019-08-14,509,19:26:00,Wednesday,CNE Loop,Mechanical,7,13,W/B,4558
+2019-08-14,505,20:08:00,Wednesday,Dundas and Chestnut,Investigation,4,8,W/B,1586
+2019-08-14,504,20:59:00,Wednesday,Broadview and Dundas,Diversion,6,12,E/B,4431
+2019-08-14,506,21:04:00,Wednesday,Main Street Station,Mechanical,7,14,W/B,4195
+2019-08-14,506,22:30:00,Wednesday,Gerrard and Greenwood,Held By,68,78,E/B,4193
+2019-08-14,506,22:54:00,Wednesday,Gerrard and Parliament,Diversion,10,20,B/W,4117
+2019-08-14,501,23:12:00,Wednesday,queen St and Parliament,Investigation,7,14,W/B,4442
+2019-08-14,501,23:12:00,Wednesday,Humber Loop,Investigation,7,14,W/B,4470
+2019-08-14,501,23:45:00,Wednesday,Neville Loop,Mechanical,9,18,W/B,4439
+2019-08-15,511,00:01:00,Thursday,Bathurst and Dundas,Emergency Services,22,30,S/B,4557
+2019-08-15,306,02:23:00,Thursday,Parliament and Carlton,Mechanical,22,37,N/B,4133
+2019-08-15,501,02:58:00,Thursday,Neville park,Emergency Services,15,30,W/B,4456
+2019-08-15,511,04:44:00,Thursday,Bathurst & King,Mechanical,8,13,N/B,4418
+2019-08-15,504,04:47:00,Thursday,Broadview & Queen,Late Leaving Garage,10,16,W/B,4532
+2019-08-15,511,04:49:00,Thursday,Bathurst and King,Late Leaving Garage,8,13,N/B,4455
+2019-08-15,501,04:49:00,Thursday,Leslie & Queen,Late Leaving Garage,11,18,E/B,4444
+2019-08-15,501,04:50:00,Thursday,Leslie and Queen,Late Leaving Garage,9,17,W/B,4536
+2019-08-15,510,04:50:00,Thursday,Spadina & Queen,Late Leaving Garage,9,24,N/B,4558
+2019-08-15,511,04:53:00,Thursday,Bathurst & King,Late Leaving Garage,9,14,N/B,4503
+2019-08-15,511,04:55:00,Thursday,Bathurst & King,Late Leaving Garage,7,12,N/B,4477
+2019-08-15,501,04:56:00,Thursday,Leslie & Queen,Late Leaving Garage,6,14,W/B,4421
+2019-08-15,501,04:57:00,Thursday,Leslie & Queen,Late Leaving Garage,5,0,E/B,4417
+2019-08-15,509,04:57:00,Thursday,Bathurst & Fleet,Late Leaving Garage,6,0,S/B,4535
+2019-08-15,504,05:00:00,Thursday,Broadview & Queen,Late Leaving Garage,3,0,W/B,4555
+2019-08-15,511,05:01:00,Thursday,Bathurst & King,Late Leaving Garage,3,0,N/B,4433
+2019-08-15,506,06:15:00,Thursday,Upper Gerrad and Coxwell,Mechanical,14,22,E/B,4195
+2019-08-15,502,06:46:00,Thursday,Queen St West St Patrick,Held By,177,183,E/B,3119
+2019-08-15,501,06:49:00,Thursday,Queen / St. Patrick,Held By,177,183,B/W,4466
+2019-08-15,504,07:02:00,Thursday,Broadview & Queen,Late Leaving Garage,5,10,N/B,4575
+2019-08-15,504,07:05:00,Thursday,Broadview & Queen,Late Leaving Garage,5,10,N/B,4515
+2019-08-15,506,07:55:00,Thursday,Carlton and Yonge,Mechanical,5,11,W/B,4110
+2019-08-15,511,08:05:00,Thursday,Bathurst Harbord,Held By,12,24,N/B,4477
+2019-08-15,504,08:34:00,Thursday,King and Fraser,Held By,64,69,E/B,4463
+2019-08-15,501,08:48:00,Thursday,Queen / Shaw,Utilized Off Route,1,1,E/B,7947
+2019-08-15,512,09:25:00,Thursday,St. Clair and Old Weston,Mechanical,0,0,W/B,4537
+2019-08-15,512,10:05:00,Thursday,Bathurst and Alcina Ave,Mechanical,1,1,S/B,4537
+2019-08-15,511,13:48:00,Thursday,Bathurst St and Harbord,Held By,1,1,N/B,4520
+2019-08-15,511,15:26:00,Thursday,Bathurst and King,General Delay,3,6,S/B,4050
+2019-08-15,504,15:41:00,Thursday,King/Simcoe,Investigation,6,12,E/B,4431
+2019-08-15,505,17:27:00,Thursday,Dundas West Stn,Mechanical,4,8,S/B,8465
+2019-08-15,501,17:45:00,Thursday,Humber Loop,Mechanical,10,20,W/B,4075
+2019-08-15,506,18:29:00,Thursday,Gerrard and Cowell,Mechanical,6,12,E/B,4011
+2019-08-15,506,19:38:00,Thursday,Lansdown and College,Mechanical,7,14,W/B,4171
+2019-08-15,506,21:00:00,Thursday,High Park Loop,Utilized Off Route,7,14,E/B,4085
+2019-08-15,501,21:09:00,Thursday,Humber Loop,Mechanical,7,14,E/B,4450
+2019-08-15,504,21:11:00,Thursday,King and Parliament,Diversion,8,16,E/B,4499
+2019-08-15,505,21:11:00,Thursday,Broadview Station,Utilized Off Route,6,12,W/B,1272
+2019-08-15,505,21:52:00,Thursday,Dundas and Parliament,Mechanical,6,12,W/B,1269
+2019-08-15,512,22:41:00,Thursday,St. Clair and Lansdown,Investigation,6,12,E/B,4412
+2019-08-15,501,22:43:00,Thursday,Queen and Dufferin,Held By,8,17,W/B,4441
+2019-08-16,506,00:32:00,Friday,College and Bathurst,Mechanical,9,18,E/B,4179
+2019-08-16,306,01:22:00,Friday,Main station,Emergency Services,9,18,W/B,4145
+2019-08-16,304,03:30:00,Friday,Dundas West Station,Mechanical,15,30,E/B,4551
+2019-08-16,505,05:22:00,Friday,Dundas West Station,Mechanical,5,10,W/B,1423
+2019-08-16,501,05:43:00,Friday,Queen and Connaught,Late Leaving Garage,8,16,W/B,4012
+2019-08-16,501,06:22:00,Friday,Queensway / South Kingsway,Mechanical,6,12,W/B,4477
+2019-08-16,501,06:31:00,Friday,Neville Loop,Investigation,6,12,W/B,4445
+2019-08-16,510,09:00:00,Friday,Spadina,Diversion,0,0,S/B,4465
+2019-08-16,509,09:19:00,Friday,Fleet Loop,Mechanical,7,14,E/B,4502
+2019-08-16,512,09:20:00,Friday,St.Clair and Via Italia,Investigation,5,10,E/B,4518
+2019-08-16,501,10:10:00,Friday,Queen / Connaught,Investigation,6,12,E/B,4542
+2019-08-16,501,11:12:00,Friday,Queen / Church,Investigation,26,32,E/B,4491
+2019-08-16,509,11:19:00,Friday,Harbourfront Route,General Delay,10,9,,
+2019-08-16,506,11:38:00,Friday,Parliament and Carlton,Investigation,30,36,E/B,4189
+2019-08-16,504,14:28:00,Friday,Broadview & Queen,Mechanical,4,10,W/B,4553
+2019-08-16,506,15:03:00,Friday,Sherbourne,Investigation,21,26,W/B,4117
+2019-08-16,510,15:39:00,Friday,Spadina and King,Emergency Services,3,6,N/B,4547
+2019-08-16,506,16:03:00,Friday,Coxwell,Mechanical,5,10,E/B,4124
+2019-08-16,505,16:12:00,Friday,Dundas and Sherborne,Mechanical,5,10,E/B,8510
+2019-08-16,504,16:15:00,Friday,Roncesvalles/Grenadier,Investigation,1,1,W/B,4469
+2019-08-16,506,20:22:00,Friday,University Ave,Mechanical,5,10,E/B,4104
+2019-08-16,501,22:43:00,Friday,Queen and Dufferin,Held By,8,17,W/B,4441
+2019-08-16,505,23:57:00,Friday,Lansdowne,Mechanical,10,20,W/B,1075
+2019-08-17,504,00:25:00,Saturday,Bathurst & King,Utilized Off Route,10,20,E/B,4476
+2019-08-17,301,02:18:00,Saturday,Longbranch,Mechanical,10,14,E/B,4516
+2019-08-17,306,02:28:00,Saturday,Gerrard and Boulton,Held By,24,34,E/B,4156
+2019-08-17,304,02:52:00,Saturday,King and Roncesvalles,General Delay,15,30,W/B,4439
+2019-08-17,304,03:12:00,Saturday,Roncesvalles and Fermanagha,Held By,23,38,N/B,4500
+2019-08-17,306,03:22:00,Saturday,Roncy and Howard Park,Investigation,7,14,S/B,4024
+2019-08-17,301,04:49:00,Saturday,Queen ./ Jarvis,Mechanical,12,24,E/B,4487
+2019-08-17,512,05:52:00,Saturday,St Clair and Yonge,Mechanical,10,20,W/B,4422
+2019-08-17,501,07:17:00,Saturday,Queen / Sherbourne,Investigation,8,16,W/B,4523
+2019-08-17,501,08:41:00,Saturday,Brodview to Neville,General Delay,9,15,E/B,
+2019-08-17,512,08:57:00,Saturday,St Clair and Yonge,Emergency Services,4,10,W/B,4504
+2019-08-17,506,09:36:00,Saturday,Kingsmount and Gerrard,Mechanical,20,28,W/B,4048
+2019-08-17,510,09:44:00,Saturday,Queeys Quay  York,Emergency Services,16,25,W/B,4553
+2019-08-17,501,11:05:00,Saturday,Queen / Connaught,Mechanical,6,12,W/B,4446
+2019-08-17,506,11:20:00,Saturday,Woodbine and Gerrard,Mechanical,24,32,W/B,4184
+2019-08-17,506,11:41:00,Saturday,Carlton and Church,Investigation,12,20,E/B,4100
+2019-08-17,511,12:05:00,Saturday,Bathurst and King,Late Leaving Garage,6,11,N/B,4413
+2019-08-17,511,12:25:00,Saturday,CNE Loop,Investigation,4,8,W/B,4443
+2019-08-17,504,12:28:00,Saturday,King and Parliament,Held By,27,32,E/B,4494
+2019-08-17,504,12:30:00,Saturday,Parliament and King,Held By,31,40,W/B,4561
+2019-08-17,501,12:58:00,Saturday,Broadview and Queen,Mechanical,6,12,W/B,4448
+2019-08-17,506,14:06:00,Saturday,College and Yonge,Held By,7,15,E/B,4042
+2019-08-17,501,14:44:00,Saturday,Yonge and Queen,Diversion,54,59,W/B,4458
+2019-08-17,501,15:40:00,Saturday,Spadina and King,Investigation,5,10,S/B,4458
+2019-08-17,505,16:02:00,Saturday,Agusta,Investigation,4,8,W/B,8595
+2019-08-17,504,16:30:00,Saturday,Broadview Stn,Held By,14,20,E/B,4507
+2019-08-17,504,16:48:00,Saturday,Broadview and Queen,Mechanical,6,7,E/B,4487
+2019-08-17,505,16:55:00,Saturday,Gerrard,Investigation,4,8,S/B,1042
+2019-08-17,505,20:15:00,Saturday,DWS,Emergency Services,5,10,E/B,1040
+2019-08-17,504,20:51:00,Saturday,Dufferin Loop,Mechanical,9,17,E/B,4444
+2019-08-17,501,22:23:00,Saturday,McCaul and Queen,Held By,21,28,W/B,4523
+2019-08-17,501,22:54:00,Saturday,Longbranch & lakeshore,Mechanical,4,9,E/B,4450
+2019-08-18,504,00:20:00,Sunday,Bathurst and King,Utilized Off Route,10,20,E/B,4479
+2019-08-18,505,06:44:00,Sunday,Langley Ave,Mechanical,6,12,W/B,1010
+2019-08-18,512,09:32:00,Sunday,Old Weston and St Clair,Investigation,77,84,W/B,4499
+2019-08-18,505,09:39:00,Sunday,DWS,Utilized Off Route,5,10,E/B,3121
+2019-08-18,510,12:24:00,Sunday,Dundas,Mechanical,32,36,S/B,4503
+2019-08-18,501,13:40:00,Sunday,Queen and Victoria,Investigation,9,15,E/B,4508
+2019-08-18,512,13:40:00,Sunday,St Clair West,Held By,11,18,W/B,4443
+2019-08-18,506,14:45:00,Sunday,Gerrard and Jones,Held By,24,31,B/W,4176
+2019-08-18,501,15:25:00,Sunday,Queen and Spadina,Diversion,8,14,E/B,4456
+2019-08-18,501,16:39:00,Sunday,Richmond and Bay,Held By,40,46,W/B,4494
+2019-08-18,506,17:13:00,Sunday,Gerrard and Broadview,Held By,6,13,B/W,4178
+2019-08-18,504,22:14:00,Sunday,King and Spadina,Mechanical,10,20,W/B,4560
+2019-08-18,510,23:11:00,Sunday,King and Spadina,Mechanical,7,15,E/B,4553
+2019-08-19,510,05:05:00,Monday,Bathurst & Spadina,Held By,2,17,S/B,4557
+2019-08-19,504,06:01:00,Monday,King and Niagara,Emergency Services,5,18,E/B,4413
+2019-08-19,511,06:58:00,Monday,Bathurst & King,Late Leaving Garage,6,11,S/B,4515
+2019-08-19,512,07:23:00,Monday,St Clair Station,Mechanical,7,14,W/B,4488
+2019-08-19,505,07:49:00,Monday,Mt.Dennis Garage,Late Leaving Garage,4,8,W/B,
+2019-08-19,510,07:51:00,Monday,Queens Quay / Spadina,Investigation,6,12,E/B,4555
+2019-08-19,506,08:00:00,Monday,High Park Loop,Mechanical,5,11,W/B,4081
+2019-08-19,505,08:07:00,Monday,Dundas and ontario,Investigation,5,10,E/B,1549
+2019-08-19,512,08:07:00,Monday,Keele / St Clair,Held By,6,12,B/W,4535
+2019-08-19,504,09:00:00,Monday,King and Dufferin,Diversion,0,0,W/B,
+2019-08-19,511,10:19:00,Monday,Bathurst and front,General Delay,10,16,N/B,4574
+2019-08-19,505,11:04:00,Monday,dundas west station,Mechanical,5,10,W/B,1117
+2019-08-19,505,12:07:00,Monday,Dundas and Dufferin,Investigation,5,10,W/B,3144
+2019-08-19,501,13:18:00,Monday,Queen & Woodfield,Mechanical,7,14,W/B,4473
+2019-08-19,501,13:47:00,Monday,Queensway and South Kingsway,Mechanical,9,15,E/B,4509
+2019-08-19,510,14:41:00,Monday,Bathurst Station,Mechanical,5,9,N/B,4530
+2019-08-19,506,17:52:00,Monday,Gerrard and Broadview,Mechanical,23,35,E/B,4074
+2019-08-19,504,19:40:00,Monday,King/spadina,Investigation,6,12,E/B,4520
+2019-08-19,510,19:43:00,Monday,Spadina Station,Mechanical,8,16,S/B,4557
+2019-08-19,511,20:44:00,Monday,fleet loop,Held By,6,11,S/B,4553
+2019-08-19,509,20:44:00,Monday,fleet loop,Held By,5,11,W/B,4493
+2019-08-20,504,01:42:00,Tuesday,King and Queen,Emergency Services,10,20,W/B,4462
+2019-08-20,505,05:12:00,Tuesday,Broadview Station,Mechanical,5,10,E/B,8560
+2019-08-20,504,09:00:00,Tuesday,King and Dufferin,Diversion,0,0,W/B,
+2019-08-20,50,09:50:00,Tuesday,Dundas and Spadina,Emergency Services,5,10,E/B,1359
+2019-08-20,501,10:07:00,Tuesday,Lakeshore / Parklawn,Mechanical,8,16,W/B,4071
+2019-08-20,506,10:50:00,Tuesday,Gerrard and Woodfield,Held By,6,11,E/B,4187
+2019-08-20,504,11:01:00,Tuesday,Roncesvalles and Galley,Held By,16,23,S/B,4456
+2019-08-20,501,12:20:00,Tuesday,Queen / Kingston,Mechanical,6,12,E/B,4507
+2019-08-20,509,13:49:00,Tuesday,Queens Quay and Bathurst,Mechanical,1,1,W/B,4488
+2019-08-20,501,13:50:00,Tuesday,Queen & Woodfield,Mechanical,7,14,E/B,4572
+2019-08-20,705,14:30:00,Tuesday,Leslie Barns,Late Leaving Garage,1,1,W/B,4525
+2019-08-20,506,14:43:00,Tuesday,Gerrard and Woodbine,Mechanical,6,12,W/B,4069
+2019-08-20,705,14:45:00,Tuesday,Leslie Barns,Late Leaving Garage,1,1,W/B,4483
+2019-08-20,504,15:20:00,Tuesday,Broadview/Queen,Held By,6,12,W/B,4490
+2019-08-20,505,17:56:00,Tuesday,DWS,Mechanical,5,10,E/B,1003
+2019-08-20,506,18:32:00,Tuesday,Dundas and Howard Park,Mechanical,1,2,W/B,4108
+2019-08-20,501,19:06:00,Tuesday,Queen & John,Investigation,,14,W/B,7918
+2019-08-20,506,19:13:00,Tuesday,Carlton and Jarvis,Mechanical,7,14,W/B,4184
+2019-08-20,501,19:26:00,Tuesday,Queen & Spadina,Mechanical,18,25,W/B,4441
+2019-08-20,506,19:38:00,Tuesday,Gerrard and Coxwell,Mechanical,6,12,E/B,4050
+2019-08-20,506,20:11:00,Tuesday,College and Bay,Mechanical,62,69,W/B,4135
+2019-08-20,510,20:22:00,Tuesday,Spadina and Dundas,Utilized Off Route,4,8,N/B,4518
+2019-08-20,510,20:22:00,Tuesday,Spadina and Willcocks,Utilized Off Route,4,8,S/B,4495
+2019-08-20,505,20:48:00,Tuesday,Parliament,Utilized Off Route,5,10,W/B,8491
+2019-08-20,506,20:53:00,Tuesday,College and Grace,Held By,11,18,E/B,4164
+2019-08-20,506,21:10:00,Tuesday,spadina/college,Mechanical,7,14,W/B,4146
+2019-08-20,512,21:15:00,Tuesday,St. Clair Station,Mechanical,7,14,W/B,4541
+2019-08-21,501,00:04:00,Wednesday,Queen and Tecumseth,Mechanical,3,6,E/B,4103
+2019-08-21,504,05:36:00,Wednesday,King and Parliament,Mechanical,12,18,W/B,4474
+2019-08-21,501,06:46:00,Wednesday,Queen / Scarboro Beach,Mechanical,8,16,W/B,4068
+2019-08-21,505,08:17:00,Wednesday,Dundas and Kenisgtion,Mechanical,5,10,W/B,1107
+2019-08-21,501,08:27:00,Wednesday,Queensquey and queen,Utilized Off Route,6,12,E/B,7918
+2019-08-21,501,09:41:00,Wednesday,Sunnyside Loop,Utilized Off Route,6,12,E/B,8911
+2019-08-21,501,09:56:00,Wednesday,Queen / Shaw,Investigation,6,12,W/B,4546
+2019-08-21,510,14:20:00,Wednesday,Spadina Loop,Investigation,4,8,S/B,4415
+2019-08-21,502,16:09:00,Wednesday,Queen and Leslie,Mechanical,12,24,E/B,3137
+2019-08-21,505,16:13:00,Wednesday,Dundas west Stn.,Mechanical,4,8,E/B,8946
+2019-08-21,501,16:44:00,Wednesday,Humber Loop,Mechanical,10,20,W/B,4079
+2019-08-21,504,16:54:00,Wednesday,King/Dufferin,Mechanical,6,12,E/B,4573
+2019-08-21,505,17:44:00,Wednesday,Dundas West,Mechanical,4,8,E/B,1138
+2019-08-21,505,17:48:00,Wednesday,Broadview and Dundas,Investigation,4,8,S/B,1086
+2019-08-21,501,17:54:00,Wednesday,Humber Loop,Utilized Off Route,10,20,W/B,4048
+2019-08-21,501,17:57:00,Wednesday,Long Branch & Browns Line.,Mechanical,10,20,W/B,4098
+2019-08-21,504,18:55:00,Wednesday,Roncesvalles/Queen,Held By,6,12,E/B,4435
+2019-08-21,510,19:13:00,Wednesday,Charolette Loop,Mechanical,4,8,S/B,4480
+2019-08-21,501,20:10:00,Wednesday,Queen & Peter,Held By,8,15,W/B,4428
+2019-08-21,504,20:43:00,Wednesday,King and Dufferin,Emergency Services,8,16,W/B,4422
+2019-08-21,504,22:30:00,Wednesday,King and Spadina,Mechanical,10,20,E/B,4458
+2019-08-21,509,22:36:00,Wednesday,q.quay/rees,Emergency Services,16,21,E/B,4493
+2019-08-21,510,22:44:00,Wednesday,Queen's Quay and Spadina,Emergency Services,18,26,E/B,4458
+2019-08-22,501,07:56:00,Thursday,Queen / Leslie,Mechanical,6,12,E/B,4528
+2019-08-22,510,09:00:00,Thursday,Spadina Queens Quay,General Delay,1,1,E/B,4554
+2019-08-22,504,09:00:00,Thursday,King and Dufferin,Diversion,0,0,W/B,
+2019-08-22,510,09:45:00,Thursday,Spadina Queens Quay,Investigation,1,1,S/B,4469
+2019-08-22,511,11:13:00,Thursday,Bathurst and College,Held By,9,16,S/B,4538
+2019-08-22,505,11:19:00,Thursday,Dundas and dovercourt,Mechanical,1,1,W/B,1048
+2019-08-22,501,11:37:00,Thursday,Neville Loop,Mechanical,6,12,W/B,4455
+2019-08-22,506,13:05:00,Thursday,Gerrard and Coxwell,Mechanical,5,11,E/B,4193
+2019-08-22,506,14:30:00,Thursday,College and Bay,Mechanical,6,11,W/B,4069
+2019-08-22,506,15:24:00,Thursday,Bay and College,General Delay,231,237,B/W,4071
+2019-08-22,505,16:16:00,Thursday,Parliament and Dundas,Utilized Off Route,4,8,W/B,8520
+2019-08-22,506,16:31:00,Thursday,Queen and Parliament,Investigation,6,12,E/B,4127
+2019-08-22,505,16:54:00,Thursday,Broadview Stn,Utilized Off Route,4,5,W/B,1099
+2019-08-22,504,17:30:00,Thursday,Church-Dundas w stn.,General Delay,0,0,B/W,
+2019-08-22,511,17:32:00,Thursday,Bathurst and Niagara,Held By,7,13,N/B,4458
+2019-08-22,510,18:41:00,Thursday,Spadina and Queen,Mechanical,4,8,S/B,4453
+2019-08-22,504,18:52:00,Thursday,King/Bay,Held By,8,14,W/B,4521
+2019-08-22,501,19:03:00,Thursday,Lakeshore & 31ST,Investigation,290,299,E/B,8045
+2019-08-22,504,22:25:00,Thursday,Roncesvalles and Howard Park,General Delay,15,25,S/B,4573
+2019-08-22,506,22:33:00,Thursday,Lansdowne and Dundas,Investigation,5,10,W/B,4169
+2019-08-23,505,00:03:00,Friday,Dundas st and Lansdowne Av,Investigation,11,22,W/B,1054
+2019-08-23,304,02:47:00,Friday,Broadview Station,Mechanical,15,30,S/B,4573
+2019-08-23,304,03:04:00,Friday,Broadview Station,Mechanical,15,30,S/B,4509
+2019-08-23,501,04:56:00,Friday,Leslie & Queen,Mechanical,8,16,W/B,4519
+2019-08-23,501,04:57:00,Friday,Leslie & Queen,Late Leaving Garage,0,0,E/B,4528
+2019-08-23,509,05:04:00,Friday,Bathurst & Fleet,Mechanical,0,0,W/B,4507
+2019-08-23,510,05:05:00,Friday,Spadina & King,Late Leaving Garage,4,19,N/B,4467
+2019-08-23,505,08:16:00,Friday,Dundas west station,Mechanical,5,10,E/B,8961
+2019-08-23,805,08:21:00,Friday,Queen and church,Mechanical,1,1,S/B,4503
+2019-08-23,501,08:34:00,Friday,Humber Loop,Mechanical,9,18,E/B,4079
+2019-08-23,510,09:00:00,Friday,Union Station,General Delay,1,1,S/B,4447
+2019-08-23,504,09:00:00,Friday,King and Dufferin,Diversion,0,0,W/B,
+2019-08-23,504,09:53:00,Friday,King and Jameson,Mechanical,6,11,W/B,4542
+2019-08-23,506,10:00:00,Friday,College and Yonge,Emergency Services,15,21,E/B,4124
+2019-08-23,511,10:16:00,Friday,Cne loop,Mechanical,1,1,N/B,4506
+2019-08-23,505,10:23:00,Friday,Broadview station,Mechanical,1,1,E/B,3151
+2019-08-23,505,10:31:00,Friday,Dundas and chestnut,Investigation,5,10,W/B,8501
+2019-08-23,502,11:16:00,Friday,Queen and Jarvis,Investigation,10,20,E/B,8541
+2019-08-23,510,11:32:00,Friday,Spadina Station,Overhead - Pantograph,12,16,N/B,4516
+2019-08-23,504,13:21:00,Friday,Dundas w stn,Investigation,19,27,B/W,4415
+2019-08-23,501,13:30:00,Friday,Humber Loop,Mechanical,7,14,E/B,4518
+2019-08-23,511,15:13:00,Friday,Bathurst and Front,Held By,34,40,N/B,4508
+2019-08-23,506,15:17:00,Friday,Jones & Gerrard,Mechanical,6,12,E/B,4108
+2019-08-23,502,16:35:00,Friday,Bingham Loop,Emergency Services,13,11,E/B,3110
+2019-08-23,501,16:36:00,Friday,Queen & Shaw.,Mechanical,7,14,E/B,4561
+2019-08-23,511,16:45:00,Friday,Dundas and Bathurst,Held By,49,49,S/B,4547
+2019-08-23,504,17:30:00,Friday,Curch-Dundas W stn,General Delay,10,16,B/W,
+2019-08-23,512,19:00:00,Friday,St. Clair and Avenue Rd.,Mechanical,4,8,E/B,4563
+2019-08-23,511,19:02:00,Friday,Fleet Loop,Emergency Services,4,8,N/B,4445
+2019-08-23,505,19:56:00,Friday,Broadview Stn.,Mechanical,6,12,W/B,1576
+2019-08-23,504,21:14:00,Friday,Dundas west ststion,Mechanical,8,17,S/B,4417
+2019-08-23,501,22:39:00,Friday,Kipling Loop,Emergency Services,15,21,W/B,4561
+2019-08-23,510,23:37:00,Friday,Spadina Loop,Investigation,8,16,W/B,4455
+2019-08-24,301,02:17:00,Saturday,Russell Yard w/b track,Emergency Services,23,33,W/B,4428
+2019-08-24,301,02:49:00,Saturday,Queen and Ossington,Investigation,15,30,W/B,4469
+2019-08-24,501,03:51:00,Saturday,Queen Street East  Parliament,Overhead - Pantograph,1,1,N/B,4530
+2019-08-24,504,04:13:00,Saturday,Lakeshore/1st,Investigation,22,37,E/B,4521
+2019-08-24,506,08:22:00,Saturday,College and Dufferin,Mechanical,8,16,W/B,4011
+2019-08-24,501,08:48:00,Saturday,Queen/Bathurst,Investigation,26,33,W/B,4532
+2019-08-24,512,08:48:00,Saturday,Bathurst and Queen,Held By,5,10,B/W,4557
+2019-08-24,511,08:49:00,Saturday,Bahurst Queen St West,Held By,28,14,S/B,4507
+2019-08-24,510,09:14:00,Saturday,Union Station,Diversion,1,1,S/B,4421
+2019-08-24,505,09:50:00,Saturday,Bloor St West and Bedford.,Mechanical,6,12,E/B,1004
+2019-08-24,512,10:55:00,Saturday,Avenue and St Clair,Held By,133,138,W/B,4557
+2019-08-24,505,12:30:00,Saturday,Broadview Station,Mechanical,6,12,W/B,3146
+2019-08-24,505,14:58:00,Saturday,Bathurst Street,Investigation,5,10,W/B,8566
+2019-08-24,504,15:37:00,Saturday,Carlaw and Queen,Investigation,6,13,E/B,4413
+2019-08-24,501,17:29:00,Saturday,Queen Street East Caroline,Investigation,16,22,E/B,4447
+2019-08-24,504,17:57:00,Saturday,Spadina and King,Investigation,27,27,S/B,4529
+2019-08-24,510,17:57:00,Saturday,King,Held By,19,23,S/B,4514
+2019-08-24,510,18:15:00,Saturday,Sussex,Emergency Services,9,13,S/B,4508
+2019-08-24,505,18:41:00,Saturday,DWS,Mechanical,5,10,W/B,8498
+2019-08-24,505,18:57:00,Saturday,DWS,Mechanical,5,10,E/B,1092
+2019-08-24,512,22:56:00,Saturday,Laughton and St Clair,Investigation,10,19,E/B,4479
+2019-08-25,504,00:42:00,Sunday,Roncesvalles and King,Mechanical,19,29,E/B,4539
+2019-08-25,301,03:50:00,Sunday,Longbranch Loop,Emergency Services,16,31,W/B,4468
+2019-08-25,505,09:05:00,Sunday,Dundas Sherbourne,Mechanical,6,12,W/B,3154
+2019-08-25,510,09:15:00,Sunday,Union Station,Diversion,1,1,S/B,4534
+2019-08-25,510,11:43:00,Sunday,Spadina Station,Investigation,1,1,S/B,4463
+2019-08-25,506,12:15:00,Sunday,Gerrard and Broadview,Mechanical,8,16,E/B,4186
+2019-08-25,506,12:32:00,Sunday,Gerrard and Broadview,Investigation,8,16,E/B,4081
+2019-08-25,501,13:26:00,Sunday,Humber Loop,Emergency Services,6,12,E/B,4453
+2019-08-25,501,13:35:00,Sunday,Queen / Kingston,Mechanical,6,12,E/B,4512
+2019-08-25,501,14:48:00,Sunday,Humber Loop,Mechanical,59,69,E/B,4169
+2019-08-25,504,14:59:00,Sunday,King and Shaw,Overhead - Pantograph,1,1,E/B,4559
+2019-08-25,504,15:17:00,Sunday,Queen and Sumach,Overhead - Pantograph,14,23,E/B,4421
+2019-08-25,501,15:21:00,Sunday,Queen / Parliament,Overhead - Pantograph,23,29,E/B,4511
+2019-08-25,505,15:22:00,Sunday,Broadview Station,Mechanical,6,12,W/B,8541
+2019-08-25,501,15:32:00,Sunday,Queen / Yonge,Held By,16,22,W/B,4448
+2019-08-25,506,15:35:00,Sunday,High Park Loop,Mechanical,6,12,E/B,4050
+2019-08-25,505,15:52:00,Sunday,Grace Street,Investigation,6,12,E/B,1021
+2019-08-25,506,18:10:00,Sunday,Coxwell and Gerrard,Investigation,29,35,E/B,4193
+2019-08-25,505,18:17:00,Sunday,Gerrard Street,Utilized Off Route,6,12,E/B,1115
+2019-08-25,504,18:46:00,Sunday,Entire Line,General Delay,,,B/W,
+2019-08-25,506,20:01:00,Sunday,College and Lansdown,Investigation,10,20,E/B,4164
+2019-08-25,510,20:43:00,Sunday,King,Held By,7,12,N/B,4543
+2019-08-25,505,22:52:00,Sunday,Broadview Station,Mechanical,10,20,E/B,1380
+2019-08-25,504,23:05:00,Sunday,Roncesvalles and Howard Park,Emergency Services,60,70,N/B,4444
+2019-08-25,501,23:06:00,Sunday,Queen St E and Woodfield Rd,Investigation,10,20,W/B,4458
+2019-08-26,501,00:51:00,Monday,humber Loop,Investigation,12,24,E/B,4500
+2019-08-26,304,01:51:00,Monday,Dundas West Station,Emergency Services,15,30,S/B,4528
+2019-08-26,504,05:43:00,Monday,King and Church,Mechanical,112,117,E/B,4425
+2019-08-26,505,05:55:00,Monday,Broadview station,Utilized Off Route,5,10,W/B,8500
+2019-08-26,502,06:01:00,Monday,Queen and Duncon,Utilized Off Route,12,24,E/B,8444
+2019-08-26,502,06:21:00,Monday,Kingston and Dundas,Mechanical,12,24,E/B,8580
+2019-08-26,506,07:00:00,Monday,Gerrard and Coxwell,Mechanical,8,15,E/B,4053
+2019-08-26,506,07:10:00,Monday,Queensway Garage,Late Leaving Garage,8,16,E/B,7942
+2019-08-26,510,09:00:00,Monday,Spadina and Queens Quay,Diversion,0,0,S/B,
+2019-08-26,501,09:02:00,Monday,Queen / Church,Mechanical,8,16,E/B,7917
+2019-08-26,509,09:23:00,Monday,QueensQuay and Dan Leckie,Mechanical,8,15,W/B,4427
+2019-08-26,504,11:20:00,Monday,Queen and King,Investigation,7,14,W/B,4488
+2019-08-26,505,12:03:00,Monday,Dundas west station,Mechanical,5,10,E/B,1265
+2019-08-26,505,12:56:00,Monday,Broadview station,Mechanical,5,10,W/B,8501
+2019-08-26,501,13:28:00,Monday,Queen & Church,Emergency Services,7,14,E/B,4454
+2019-08-26,511,14:29:00,Monday,Queen Street,Diversion,35,41,S/B,4419
+2019-08-26,504,15:21:00,Monday,Leslie Barns,Late Leaving Garage,6,12,W/B,4509
+2019-08-26,506,16:45:00,Monday,Gerrard and Woodfield,Held By,555,561,B/W,4193
+2019-08-26,506,16:45:00,Monday,gerrard/woodfield,Diversion,1,2,B/W,4193
+2019-08-26,505,16:58:00,Monday,Gerrard Street,Investigation,5,10,E/B,1114
+2019-08-26,505,17:20:00,Monday,Broadview Station,Utilized Off Route,5,10,W/B,1415
+2019-08-26,503,17:28:00,Monday,Bingham Loop,Mechanical,12,24,W/B,8964
+2019-08-26,501,18:28:00,Monday,lakeshore/luisa,Investigation,30,40,W/B,4068
+2019-08-26,504,19:19:00,Monday,Roncesvalles/Queen,Mechanical,8,14,W/B,4535
+2019-08-26,501,19:21:00,Monday,Queen and Parliament,Mechanical,7,14,E/B,4435
+2019-08-26,501,21:00:00,Monday,Longbranch Loop,Mechanical,9,18,E/B,4187
+2019-08-26,510,21:47:00,Monday,Spadina and Willcocks,Emergency Services,1,1,N/B,4523
+2019-08-26,501,23:09:00,Monday,Queen and Broadview,Emergency Services,10,20,W/B,4546
+2019-08-26,505,23:56:00,Monday,Dundas West Station,Investigation,9,18,E/B,1265
+2019-08-27,301,00:47:00,Tuesday,University and Queen,Mechanical,10,20,W/B,4510
+2019-08-27,301,01:11:00,Tuesday,Humber loop,Utilized Off Route,10,20,E/B,4499
+2019-08-27,306,03:24:00,Tuesday,Gerrard St E and Woodfield,Emergency Services,86,126,E/B,4085
+2019-08-27,503,06:27:00,Tuesday,Birchmount Garage,Late Leaving Garage,6,12,,9214
+2019-08-27,504,07:00:00,Tuesday,Broadview/Queen,Investigation,8,15,W/B,4557
+2019-08-27,506,07:19:00,Tuesday,Gerrard and Woodbine,Mechanical,16,22,E/B,4169
+2019-08-27,510,07:35:00,Tuesday,Spadina and King,Mechanical,4,8,N/B,4447
+2019-08-27,510,09:00:00,Tuesday,Spadina and QueensQuay,Diversion,0,0,S/B,
+2019-08-27,512,12:10:00,Tuesday,St Clair and Avenue Rd,Investigation,5,10,E/B,4520
+2019-08-27,501,13:32:00,Tuesday,Lakeshore & Kipling,Mechanical,9,18,E/B,4164
+2019-08-27,505,14:21:00,Tuesday,Sorauren,Held By,5,10,W/B,1045
+2019-08-27,501,15:00:00,Tuesday,Queen & Yonge,Diversion,23,30,B/W,4519
+2019-08-27,501,15:00:00,Tuesday,Queen & Yonge,Diversion,23,30,B/W,4519
+2019-08-27,502,15:07:00,Tuesday,Yonge,Emergency Services,21,28,W/B,8561
+2019-08-27,506,15:12:00,Tuesday,Dundas and Howard Park,Investigation,44,50,B/W,4187
+2019-08-27,505,15:29:00,Tuesday,Howard Park Ave,Held By,10,15,E/B,1009
+2019-08-27,506,15:30:00,Tuesday,College and Dundas,Investigation,6,12,W/B,4074
+2019-08-27,505,15:58:00,Tuesday,Howard Park Ave,Mechanical,5,10,E/B,1009
+2019-08-27,505,17:31:00,Tuesday,Yonge Street,Emergency Services,5,10,W/B,1134
+2019-08-27,501,18:35:00,Tuesday,Queen & Gladstone,Emergency Services,7,14,E/B,4548
+2019-08-27,506,19:29:00,Tuesday,Gerrard and Coxwell,Mechanical,6,12,E/B,4071
+2019-08-27,505,22:15:00,Tuesday,Dundas West Station,Emergency Services,10,20,E/B,1093
+2019-08-28,304,02:04:00,Wednesday,Dundas West Station,Mechanical,15,30,S/B,4535
+2019-08-28,505,05:28:00,Wednesday,Pape station,Utilized Off Route,5,10,W/B,3141
+2019-08-28,502,05:28:00,Wednesday,Bingham loop,Utilized Off Route,12,24,,8962
+2019-08-28,505,05:29:00,Wednesday,Broadview station,Utilized Off Route,5,10,W/B,8468
+2019-08-28,505,05:45:00,Wednesday,Dundas west station,Utilized Off Route,5,10,W/B,1071
+2019-08-28,510,09:00:00,Wednesday,Spadina and Queens Quay,Diversion,0,0,S/B,
+2019-08-28,501,11:02:00,Wednesday,Queen / Roncesvalles,Investigation,1,1,W/B,7917
+2019-08-28,510,12:22:00,Wednesday,Spadina and Queen,Investigation,4,8,S/B,4561
+2019-08-28,502,13:38:00,Wednesday,Bingham Loop,Mechanical,10,20,B/W,8961
+2019-08-28,504,14:20:00,Wednesday,Broadview/Queen,Held By,10,16,W/B,4573
+2019-08-28,504,14:20:00,Wednesday,Broadview/Queen,Held By,8,14,W/B,4416
+2019-08-28,505,14:37:00,Wednesday,Dundas west station,Mechanical,5,10,E/B,1082
+2019-08-28,504,15:11:00,Wednesday,Sumach/King,Investigation,58,64,W/B,4480
+2019-08-28,501,15:29:00,Wednesday,Queen St. and Shaw St.,Investigation,7,14,E/B,4523
+2019-08-28,502,15:34:00,Wednesday,Queen and river,Utilized Off Route,10,20,B/W,8545
+2019-08-28,506,16:12:00,Wednesday,Main Station,Mechanical,6,12,W/B,4184
+2019-08-28,504,17:00:00,Wednesday,Church-Dundas w stn,General Delay,12,18,B/W,
+2019-08-28,510,20:10:00,Wednesday,Spadina Loop,Mechanical,4,8,N/B,4411
+2019-08-28,506,22:03:00,Wednesday,Gerrard and River,Investigation,10,20,W/B,4024
+2019-08-28,504,23:10:00,Wednesday,King and Jameson,Investigation,39,47,W/B,4535
+2019-08-29,505,00:30:00,Thursday,Dundas and Yonge,Investigation,10,20,E/B,1378
+2019-08-29,501,04:39:00,Thursday,Queen / Shaw,Held By,8,32,W/B,4542
+2019-08-29,506,05:49:00,Thursday,Yonge  College,Held By,75,80,W/B,4069
+2019-08-29,506,05:49:00,Thursday,Carlton at Yonge,Diversion,93,98,E/B,4075
+2019-08-29,502,05:53:00,Thursday,woodbine and kingston raod,Utilized Off Route,12,24,W/B,9234
+2019-08-29,505,06:58:00,Thursday,Dundas west station,Mechanical,5,10,E/B,1082
+2019-08-29,505,07:01:00,Thursday,Dundas and spadina,Utilized Off Route,5,10,E/B,1134
+2019-08-29,510,09:00:00,Thursday,Spadina and QueensQuay,Diversion,0,0,S/B,
+2019-08-29,504,09:01:00,Thursday,Distillery Loop,Mechanical,13,18,W/B,4427
+2019-08-29,506,09:29:00,Thursday,Braodview Gerrard,Investigation,10,16,W/B,4086
+2019-08-29,509,10:34:00,Thursday,Harbourfront Route,General Delay,10,9,,
+2019-08-29,506,10:48:00,Thursday,Gerrard River,Investigation,1,1,E/B,4074
+2019-08-29,504,11:27:00,Thursday,Jameson W/B Dufferin E/B,General Delay,,,B/W,
+2019-08-29,511,11:29:00,Thursday,bathurst and fleet,General Delay,31,28,B/W,4440
+2019-08-29,506,14:02:00,Thursday,Gerrard Parliament,General Delay,1,1,E/B,4147
+2019-08-29,502,14:40:00,Thursday,Queen St and victoria,Investigation,10,20,E/B,9202
+2019-08-29,502,17:54:00,Thursday,Queen St and Carlaw ave,Mechanical,10,20,W/B,9202
+2019-08-29,506,23:51:00,Thursday,College and Ossington,Investigation,10,20,W/B,4100
+2019-08-30,511,01:26:00,Friday,Bathurst and kIng,Investigation,23,31,S/B,4491
+2019-08-30,304,02:37:00,Friday,Broadview and Dundas,Investigation,15,30,N/B,4507
+2019-08-30,304,02:51:00,Friday,King and Niagara,Held By,39,54,E/B,4500
+2019-08-30,301,04:29:00,Friday,Lakeshore and Fort York,Mechanical,15,30,E/B,4454
+2019-08-30,501,04:50:00,Friday,Russell yard,Late Leaving Garage,6,12,W/B,4147
+2019-08-30,505,05:11:00,Friday,Broadview Station,Mechanical,5,10,W/B,8502
+2019-08-30,501,07:10:00,Friday,Queen Bay,Overhead - Pantograph,1,1,E/B,4520
+2019-08-30,510,09:00:00,Friday,Spadina and QueensQuay,Diversion,0,0,S/B,
+2019-08-30,505,09:03:00,Friday,Dundas west station,Mechanical,5,10,E/B,1412
+2019-08-30,505,09:16:00,Friday,Broadview station,Mechanical,5,10,W/B,8560
+2019-08-30,509,10:25:00,Friday,Harbourfront Route,General Delay,10,9,,
+2019-08-30,501,10:44:00,Friday,Lakeshore Blvd Legion,Investigation,74,83,W/B,4110
+2019-08-30,505,10:48:00,Friday,Dundas west station,Utilized Off Route,5,10,B/W,1099
+2019-08-30,505,14:30:00,Friday,Church and Dundas,Mechanical,5,10,E/B,1086
+2019-08-30,501,15:13:00,Friday,Queen & Victoria,Mechanical,11,18,E/B,4416
+2019-08-30,506,15:15:00,Friday,Kingsmount Ph,Investigation,11,16,W/B,4155
+2019-08-30,505,15:56:00,Friday,Dundas and Sumach,Investigation,5,10,W/B,1061
+2019-08-30,512,17:04:00,Friday,St. Clair and Earlscourt,Emergency Services,5,9,W/B,4461
+2019-08-30,505,17:20:00,Friday,Dundas and Beverly,Investigation,4,8,W/B,8555
+2019-08-30,512,17:34:00,Friday,St. Clair and Spadina,Mechanical,1,1,E/B,4474
+2019-08-30,505,17:43:00,Friday,Dundas West Stn,Mechanical,4,8,E/B,1129
+2019-08-30,505,19:25:00,Friday,Broadview Stn,Mechanical,6,12,W/B,8962
+2019-08-30,505,20:05:00,Friday,Dundas and University,Investigation,6,12,E/B,
+2019-08-30,506,21:52:00,Friday,Coxwell,Emergency Services,8,16,W/B,4119
+2019-08-31,301,02:00:00,Saturday,Longbranch loop,Mechanical,10,20,E/B,4422
+2019-08-31,510,02:03:00,Saturday,Spadina and Dundas,Investigation,40,54,N/B,4441
+2019-08-31,506,05:59:00,Saturday,High Park loop,Mechanical,10,20,E/B,4021
+2019-08-31,510,09:05:00,Saturday,Union Station,Diversion,1,1,S/B,4421
+2019-08-31,501,10:04:00,Saturday,Queen and Niagara,Investigation,29,35,E/B,4493
+2019-08-31,501,11:48:00,Saturday,Queen and Connaught,Mechanical,5,11,W/B,4444
+2019-08-31,501,12:07:00,Saturday,Queen and Broadview,Investigation,10,16,W/B,4481
+2019-08-31,504,14:23:00,Saturday,Entire Line,General Delay,1,1,B/W,
+2019-08-31,501,14:43:00,Saturday,Dufferin and Queen,General Delay,6,12,E/B,4520
+2019-08-31,505,15:40:00,Saturday,Broadview Station,Investigation,5,10,W/B,1011
+2019-08-31,510,18:34:00,Saturday,King and Spadina,Mechanical,81,86,B/W,4426
+2019-08-31,510,18:36:00,Saturday,EB King @ Charlotte,Mechanical,0,0,E/B,4426
+2019-08-31,506,21:15:00,Saturday,higpark loop,Held By,43,50,W/B,4098
+2019-08-31,505,21:34:00,Saturday,Brock and Dundas,Investigation,7,14,W/B,1142
