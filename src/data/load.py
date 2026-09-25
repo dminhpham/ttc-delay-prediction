@@ -1,12 +1,11 @@
-# import config
 """
 Load the raw TTC bus and streetcar delay into DF
 """
 
 import pandas as pd
 import glob
-
-raw_data_dir = "data/raw/csv"
+from pathlib import Path
+raw_data_dir = Path(__file__).resolve().parents[2]/"data"/"raw"/"csv"
 
 # Rename spelling ttc used to one name
 RENAME = {
@@ -42,7 +41,7 @@ COLUMNS = [
 ]
 
 # Read bus and streetcar data into DF
-def load_data():
+def load_data() -> pd.DataFrame:
     frames = []
     for mode in ["bus", "streetcar"]:
         # Data from 2014 - 2021
@@ -52,14 +51,17 @@ def load_data():
 
         for path in sorted(paths):
             df = pd.read_csv(path)
+            # Remove duplicated row
+            df = df.drop_duplicates()
             # Remove all leading and trailing whitespace from column headers
             df.columns = df.columns.str.strip()
             # Rename the column
             df = df.rename(columns=RENAME)[COLUMNS]
             df["mode"] = mode
             frames.append(df)
-    return pd.concat(frames)
+    return pd.concat(frames, ignore_index=True)
 
-df = load_data()
-print(df.shape)
-print(df["mode"].value_counts())
+if __name__ == "__main__":
+    df = load_data()
+    print(df.shape)
+    print(df["mode"].value_counts())
