@@ -6,6 +6,7 @@ In 2021, the data from Open Data for bus delay is identical to the streetcar in 
 
 ### Issue 2
 Check the median delay for subway to see if we can use the data for training.
+"Resolved: subway excluded, see notebooks/raw_data_profile.ipynb"
 
 ### Issue 3 — exact duplicate rows
 double-logging rather than one bad file. Dropped with `drop_duplicates()`: 852,320 raw → 850,590.
