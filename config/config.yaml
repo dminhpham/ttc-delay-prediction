@@ -1,0 +1,14 @@
+seed: 42
+target:
+  lower_min_delay: 0  # exclusive: delay must be > 0
+  upper_min_delay: 180 # inclusive: 180 is kept
+split:
+  training_set:
+    start: 2014
+    end: 2022
+  validation_set:
+    start: 2023
+    end: 2023
+  testing_set:
+    start: 2024
+    end: 2024
