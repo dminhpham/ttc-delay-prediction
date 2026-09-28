@@ -24,3 +24,35 @@ the same 10 columns plus `mode`.
 | Raw (97 bus + 99 streetcar files) | 705,095 | 147,225 | 852,320 |
 | After dedupe | 703,610 | 146,980 | 850,590 |
 
+### Issue 5 — time format drift
+Old files use `HH:MM:SS`, newer ones `HH:MM`. `parse_datetime` pads `HH:MM` → `HH:MM:00`, joins
+`date` + `time` into one `timestamp` with an explicit format, and `errors="coerce"` turns bad values
+into NaT. 39 rows had a date in the time field (e.g. `1940-10-01`) → dropped.
+
+### Issue 6 — direction spellings
+1,226 raw spellings (`N/B`, `nb`, ` N`, `B/W`…) + 59,586 missing. `clean_direction` upper-cases,
+strips non-letters (→ 278 spellings), then maps via `DIRECTION_MAP` to 6 values. Unmapped → `Unknown`.
+- "Both ways" (`B/W`, `BW`, `B`…) kept as its own value, not forced into N/S/E/W.
+- **Assumption:** `NS`/`SN`/`EW`/`WE` (1,325 rows) read as both directions on that axis → `Both`.
+  TTC does not document this.
+- Unknown = missing + unclear (`OB`, `UP`, `DOWN`, vehicle numbers typed in the wrong field).
+
+| Value | Rows |
+|---|---|
+| East | 192,053 |
+| West | 185,255 |
+| North | 173,049 |
+| South | 155,067 |
+| Both | 79,197 |
+| Unknown | 65,930 |
+
+### Config (`config/config.yaml`)
+One place for settings, so code doesn't hard-code them: `seed: 42`; target filter `0 < delay ≤ 180`;
+chronological split train 2014–2022, validation 2023, test 2024 (years inclusive, no overlap).
+
+### Cleaning row counts (`src/data/clean.py`)
+| Step | Rows | Removed |
+|---|---|---|
+| From loader | 850,590 | – |
+| `parse_datetime` | 850,551 | 39 (unparseable time) |
+| `clean_direction` | 850,551 | 0 (values relabelled only) |

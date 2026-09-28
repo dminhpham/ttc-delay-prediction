@@ -14,6 +14,25 @@ def parse_datetime(df: pd.DataFrame):
     print(f"Rows out {df.shape[0]}")
     return df
 
+DIRECTION_MAP = {
+    "N": "North", "NB": "North", "NORTH": "North",
+    "S": "South", "SB": "South", "SOUTH": "South",
+    "E": "East",  "EB": "East",  "EAST": "East",
+    "W": "West",  "WB": "West",  "WEST": "West",
+    "BW": "Both", "B": "Both", "BWS": "Both", "BOTHWAYS": "Both",
+    "NS": "Both", "SN": "Both", "EW": "Both", "WE": "Both",
+}
+
+def clean_direction(df: pd.DataFrame):
+    df = df.copy()
+    df["direction"] = df["direction"].str.upper().str.replace(r"[^A-Z]", "", regex=True)
+    df["direction"] = df["direction"].map(DIRECTION_MAP)
+    print(f"mapped to Unknown: {df["direction"].isna().sum()}")
+    df["direction"] = df["direction"].fillna("Unknown")
+    print(df["direction"].value_counts())
+    return df
+
 if __name__ == "__main__":
     df = load_data()
     df = parse_datetime(df)
+    clean_direction(df)
