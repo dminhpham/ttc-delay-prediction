@@ -1,7 +1,7 @@
 import pandas as pd
 from src.data.load import load_data
 import yaml
-
+from pathlib import Path
 
 
 # Combine date and time columns into timestamp
@@ -49,10 +49,31 @@ def clean_route(df: pd.DataFrame, config):
     print(f"distinct routes: {df['route'].nunique()}")
     return df
 
-if __name__ == "__main__":
-    with open("config/config.yaml") as f:
-        config = yaml.safe_load(f)
+def filter_target(df: pd.DataFrame, config):
+    df = df.copy()
+    print(f"Rows in {df.shape[0]}")
+    rows_before = len(df)
+    # Drop missing value
+    df = df.dropna(subset=['min_delay'])
+    # Drop 0 and negative min_delay
+    df = df.drop(df[df["min_delay"] <= config["target"]["lower_min_delay"]].index)
+    # Drop over 3 hours min_delay
+    df = df.drop(df[df["min_delay"] > config["target"]["upper_min_delay"]].index)
+    print(f"dropped total (target filter): {rows_before - len(df)}")
+    print(f"Rows out {df.shape[0]}")
+    return df
+
+def clean_data(config):
     df = load_data()
     df = parse_datetime(df)
     df = clean_direction(df)
     df = clean_route(df, config)
+    df = filter_target(df, config)
+    return df    
+if __name__ == "__main__":
+    with open("config/config.yaml") as f:
+        config = yaml.safe_load(f)
+    df = clean_data(config)
+    # Create a new folder in data
+    Path("data/processed").mkdir(parents=True, exist_ok=True)
+    df.to_csv("data/processed/clean.csv", index=False)

@@ -56,6 +56,17 @@ night, 400s community, 500s streetcar, 900s express). Dropped 2,849 rows → 503
   `SHUTTLE` = temporary service; `927 HIGHWAY 27` = route 927, already present as `927`.
 - ~200 routes have < 10 rows. Kept: grouping rare routes is pre-processing, decided on train only.
 
+### Issue 8 — target outliers and zeros
+Keep `0 < min_delay <= 180` (limits in config). `filter_target` dropped 38,020 rows:
+missing 540 · zero or negative 27,847 · over 180 min 9,633.
+- **Zeros:** an incident that caused no delay. Our question is "how long is the delay?", so zeros
+  are a different question (cf. subway, 65% zeros). *Limitation:* the model assumes a delay occurred.
+  Negatives (10 in raw data) are impossible → errors.
+- **Over 180:** the 99th percentile jumps to 209 min; the most common values above 180 are 999
+  (1,231 rows — a placeholder) and round blocks like 240/300/480 (planned closures). Only 1.2% of
+  rows but 30% of all delay minutes, so they would dominate squared-error models (Linear Regression, RMSE).
+- 180 itself is a judgement call; it lives in config so M5 can test e.g. 240.
+
 ### Config (`config/config.yaml`)
 One place for settings, so code doesn't hard-code them: `seed: 42`; target filter `0 < delay ≤ 180`;
 chronological split train 2014–2022, validation 2023, test 2024 (years inclusive, no overlap);
@@ -68,3 +79,11 @@ valid route range 1–999.
 | `parse_datetime` | 850,551 | 39 (unparseable time) |
 | `clean_direction` | 850,551 | 0 (values relabelled only) |
 | `clean_route` | 847,702 | 2,849 (missing / non-numeric / outside 1–999) |
+| `filter_target` | **809,682** | 38,020 (540 missing, 27,847 ≤ 0, 9,633 > 180) |
+
+Total removed: 40,908 of 850,590 (4.8%).
+
+### Output
+`python -m src.data.clean` → `data/processed/clean.csv`: 809,682 rows × 12 columns (~90 MB,
+gitignored — rebuild with the command). `clean_data(config)` returns the same table for notebooks.
+`min_gap` is kept in the file for EDA but must **not** be used as a feature (leakage).
