@@ -1,3 +1,7 @@
+# Keep this out of git. Rebuild it by running clean.py from now on.
+data/processed/
+
+
 # Generated outputs
 outputs/*
 !outputs/.gitkeep
