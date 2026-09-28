@@ -12,3 +12,8 @@ split:
   testing_set:
     start: 2024
     end: 2024
+route:
+  min: 1
+  max: 999
+
+

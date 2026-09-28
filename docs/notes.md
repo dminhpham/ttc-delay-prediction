@@ -46,9 +46,20 @@ strips non-letters (→ 278 spellings), then maps via `DIRECTION_MAP` to 6 value
 | Both | 79,197 |
 | Unknown | 65,930 |
 
+### Issue 7 — route stored three ways + non-route labels
+`504`, `"504"` and `504.0` were three different values → 858 "routes". `clean_route` converts with
+`pd.to_numeric(errors="coerce")` and keeps 1–999 (range in config; TTC numbers routes 1–199, 300s
+night, 400s community, 500s streetcar, 900s express). Dropped 2,849 rows → 503 routes remain.
+- Missing: 2,334. Out of range (`0`, `5063`, `898630`, likely vehicle numbers): 34.
+- Text labels (481), **our reading, not documented by TTC:** `RAD` = Run As Directed (no fixed
+  route); `LINE 1/2/3`, `BD`, `YU`, `SRT` = subway shuttle buses (subway is out of scope);
+  `SHUTTLE` = temporary service; `927 HIGHWAY 27` = route 927, already present as `927`.
+- ~200 routes have < 10 rows. Kept: grouping rare routes is pre-processing, decided on train only.
+
 ### Config (`config/config.yaml`)
 One place for settings, so code doesn't hard-code them: `seed: 42`; target filter `0 < delay ≤ 180`;
-chronological split train 2014–2022, validation 2023, test 2024 (years inclusive, no overlap).
+chronological split train 2014–2022, validation 2023, test 2024 (years inclusive, no overlap);
+valid route range 1–999.
 
 ### Cleaning row counts (`src/data/clean.py`)
 | Step | Rows | Removed |
@@ -56,3 +67,4 @@ chronological split train 2014–2022, validation 2023, test 2024 (years inclusi
 | From loader | 850,590 | – |
 | `parse_datetime` | 850,551 | 39 (unparseable time) |
 | `clean_direction` | 850,551 | 0 (values relabelled only) |
+| `clean_route` | 847,702 | 2,849 (missing / non-numeric / outside 1–999) |
