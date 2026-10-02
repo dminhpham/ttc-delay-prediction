@@ -6,10 +6,7 @@ Running `python -m src.data.clean` rebuilds `data/processed/clean.csv` and print
 after each step.
 
 ### Removed
-
-**Duplicate files.** The raw download contains a folder, `ttc-streetcar-delay-data-2020 (1)`, that
-is a byte-for-byte copy of the 2020 streetcar folder (12 files, 7,830 rows). We deleted it before
-loading. In the bus folder, the July and August 2021 files contain streetcar data (they use the
+In the bus folder, the July and August 2021 files contain streetcar data (they use the
 streetcar column names, and the rows match the streetcar files exactly), so we removed them too. As
 a result, bus has no data for July–August 2021.
 
