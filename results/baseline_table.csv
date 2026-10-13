@@ -1,0 +1,5 @@
+model,val_mae,mae_ci_low,mae_ci_high,val_rmse,expected_mae
+Global median,8.2812,8.1365,8.4155,18.7626,7.7–8.5
+Global mean,8.5543,8.4244,8.6757,17.8139,worse than the global median
+Route x hour median,6.9662,6.8327,7.0903,17.6188,0.2–0.6 better than the global median
+Linear Regression,7.7055,7.5995,7.8038,14.6175,0.5 better than the global median to slightly worse

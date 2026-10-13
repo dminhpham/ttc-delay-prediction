@@ -1,0 +1,49 @@
+date: 2026-10-13T16:20:03
+command: python run_baseline.py
+git commit: 11d030be490d483eacb87a674b76e0c415a92011
+raw data version (last commit touching data/raw/csv): 87313fa9967fabd0533e7777b885d01b0cbf4895
+python: 3.14.0 (macOS-14.1.1-arm64-arm-64bit-Mach-O)
+numpy 2.5.3, pandas 3.0.6, scikit-learn 1.9.1, pyyaml 6.0.3
+
+config:
+seed: 42
+target:
+  lower_min_delay: 0
+  upper_min_delay: 180
+split:
+  training_set:
+    start: 2014
+    end: 2022
+  validation_set:
+    start: 2023
+    end: 2023
+  testing_set:
+    start: 2024
+    end: 2024
+route:
+  min: 1
+  max: 999
+
+row counts:
+  raw: 852,320
+  deduped: 850,590
+  cleaned: 809,682
+  train: 683,475
+  validation: 62,924
+
+models:
+  Global median / Global mean: training-set constant
+  Route x hour median: training-set median per (route, hour), global median for unseen pairs
+  Linear Regression: default settings, untuned
+  features: incident, direction, mode, day_of_week (one-hot); route frequency (scaled);
+            hour_sin, hour_cos, month_sin, month_cos, rush_hour (scaled)
+  excluded: min_gap (leakage), location and vehicle (deferred)
+  bootstrap: 1000 resamples of the validation rows, seed 42
+Linear Regression negative predictions on validation: 0
+
+validation 2023:
+              model  val_mae  mae_ci_low  mae_ci_high  val_rmse                                        expected_mae
+      Global median   8.2812      8.1365       8.4155   18.7626                                             7.7–8.5
+        Global mean   8.5543      8.4244       8.6757   17.8139                        worse than the global median
+Route x hour median   6.9662      6.8327       7.0903   17.6188               0.2–0.6 better than the global median
+  Linear Regression   7.7055      7.5995       7.8038   14.6175 0.5 better than the global median to slightly worse

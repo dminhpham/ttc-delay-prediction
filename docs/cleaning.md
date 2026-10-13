@@ -35,7 +35,7 @@ replacing subway service, which is outside our scope; `SHUTTLE` is a temporary s
   and 480, which look like planned closures rather than timed incidents. These rows are 1.2% of the
   data but 30% of all delay minutes, so they would dominate squared-error models such as Linear
   Regression. The 180-minute cut-off is a judgement call. It is set in the config so that a
-  different value, such as 240, can be tested in a later milestone.
+  different value, such as 240, can be tested later.
 
 ### Modified or corrected
 
