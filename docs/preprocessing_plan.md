@@ -24,7 +24,7 @@ A chronological split is used instead of a random split because the goal is to p
 
 The training set is used to fit the models and any data-dependent preprocessing. The validation set is used for model and hyperparameter selection. The test set is held out until the final evaluation.
 
-The year 2020 will remain in the training set despite the change in TTC delay patterns during the COVID-19 period. Its effect will be treated as a robustness question for a later milestone rather than removing the year without evidence.
+The year 2020 will remain in the training set despite the change in TTC delay patterns during the COVID-19 period. Its effect will be treated as a robustness question for later analysis rather than removing the year without evidence.
 
 ### Time features
 The cleaned `timestamp` will be used to derive time-based features instead of using the raw date and time strings.

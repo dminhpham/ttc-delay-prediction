@@ -65,7 +65,7 @@ missing 540 · zero or negative 27,847 · over 180 min 9,633.
 - **Over 180:** the 99th percentile jumps to 209 min; the most common values above 180 are 999
   (1,231 rows — a placeholder) and round blocks like 240/300/480 (planned closures). Only 1.2% of
   rows but 30% of all delay minutes, so they would dominate squared-error models (Linear Regression, RMSE).
-- 180 itself is a judgement call; it lives in config so M5 can test e.g. 240.
+- 180 itself is a judgement call; it lives in config so a different value (e.g. 240) can be tested later.
 
 ### Config (`config/config.yaml`)
 One place for settings, so code doesn't hard-code them: `seed: 42`; target filter `0 < delay ≤ 180`;
