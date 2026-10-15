@@ -58,6 +58,21 @@ def test_rejects_bad_input():
             continue
         raise AssertionError(f"mae({y}, {pred}) should raise ValueError")
 
+def test_delays_in_range():
+    with open("config/config.yaml") as f:
+        config = yaml.safe_load(f)
+    df = clean_data(config)
+    
+    # Ensure there are no missing values in min_delay.
+    assert df["min_delay"].isna().sum() == 0, "Missing values found in min_delay"
+    
+    # Checks the lower bound and ensures every row is above the limit.
+    assert (df["min_delay"] > config["target"]["lower_min_delay"]).all(), "Some delays are below the lower limit"
+    
+    # Check upper bound and ensure no delay exceeds the maximum limit
+    assert (df["min_delay"] <= config["target"]["upper_min_delay"]).all(), "Some delays exceed the upper limit"
+    
+    print("test_delays_in_range passed:", len(df), "rows checked")
 
 if __name__ == "__main__":
     tests = [f for name, f in sorted(globals().items()) if name.startswith("test_") and callable(f)]
