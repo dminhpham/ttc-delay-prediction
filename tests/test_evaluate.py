@@ -63,13 +63,13 @@ def test_delays_in_range():
         config = yaml.safe_load(f)
     df = clean_data(config)
     
-    # Ensure there are no missing values in min_delay.
+    # Ensures there are no missing values in min_delay.
     assert df["min_delay"].isna().sum() == 0, "Missing values found in min_delay"
     
     # Checks the lower bound and ensures every row is above the limit.
     assert (df["min_delay"] > config["target"]["lower_min_delay"]).all(), "Some delays are below the lower limit"
     
-    # Check upper bound and ensure no delay exceeds the maximum limit
+    # Checks upper bound and ensure no delay exceeds the maximum limit
     assert (df["min_delay"] <= config["target"]["upper_min_delay"]).all(), "Some delays exceed the upper limit"
     
     print("test_delays_in_range passed:", len(df), "rows checked")
