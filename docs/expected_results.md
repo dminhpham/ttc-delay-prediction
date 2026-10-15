@@ -64,4 +64,5 @@ Any of these gets investigated before it is reported.
 
 ---
 Drafted by Minh Pham. Numbers computed on the training split, then reproduced by
-Minh in `notebooks/expected_results.ipynb`. Reviewed by Selin (Ngoc Kieu Minh Do): _pending_.
+Minh in `notebooks/expected_results.ipynb`. 
+Reviewed by Selin (Ngoc Kieu Minh Do): Approved on Oct 14.
