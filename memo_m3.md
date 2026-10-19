@@ -65,4 +65,11 @@ Evaluated on the 62,924 validation records of 2023. Uncertainty bounds are 95% b
 4. **Boundary Violations:** Despite producing 9 negative delay predictions on the training data, Linear Regression produced exactly 0 negative predictions on the 2023 validation set.
 5. **Reproducibility Verification:** Thanh Thuy’s fresh-clone execution on an independent machine successfully reproduced these exact metrics to the decimal, confirming full pipeline reproducibility.
 
-### 7. Team Retrospective (Start / Stop / Continue) ...
+### 7. Team Retrospective (Start / Stop / Continue)
+**Start:**
+* Performing per-incident-type error analysis in Milestone 4 to understand where the models fail.
+**Stop:**
+* Committing code directly to the `main` branch.
+**Continue:**
+* Pre-registering our empirical expectations (in `docs/expected_results.md`) before evaluating models to prevent confirmation bias.
+* Using automated unit tests (like `test_no_leakage.py` and `test_filter.py`) to permanently guard against target leakage and data boundary violations.
