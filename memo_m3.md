@@ -68,8 +68,10 @@ Evaluated on the 62,924 validation records of 2023. Uncertainty bounds are 95% b
 ### 7. Team Retrospective (Start / Stop / Continue)
 **Start:**
 * Performing per-incident-type error analysis in Milestone 4 to understand where the models fail.
+* Cleaning and consolidating messy incident spellings (e.g., merging "Late  " and "Securitty") before M4 modeling.
 **Stop:**
 * Committing code directly to the `main` branch.
+* Stacking Pull Requests and merging them out of order, which risks breaking code dependencies.
 **Continue:**
 * Pre-registering our empirical expectations (in `docs/expected_results.md`) before evaluating models to prevent confirmation bias.
 * Using automated unit tests (like `test_no_leakage.py` and `test_filter.py`) to permanently guard against target leakage and data boundary violations.
