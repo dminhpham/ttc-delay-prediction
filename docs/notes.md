@@ -87,3 +87,16 @@ Total removed: 40,908 of 850,590 (4.8%).
 `python -m src.data.clean` → `data/processed/clean.csv`: 809,682 rows × 12 columns (~90 MB,
 gitignored — rebuild with the command). `clean_data(config)` returns the same table for notebooks.
 `min_gap` is kept in the file for EDA but must **not** be used as a feature (leakage).
+
+
+### Issue 9: incident label variants
+- 36 incident labels in the training years, some of them spelling variants of the same type:
+  `Late  ` (trailing spaces), `Securitty`, three spellings of the road-block collision, and `e` (not a real type).
+- Found with four checks in `notebooks/raw_data_profile.ipynb` (last section): extra spaces,
+  same-when-lowercased, rare labels (< 10 rows), and near-identical spellings.
+- `clean_incident` (src/data/clean.py) strips spaces and maps the variants: 36 → 31 labels, `e` → missing.
+  Kept as separate: `Collision - TTC` vs `Collision - TTC Involved`, and the `Late Leaving Garage - …`
+  sub-types. These look like real categories, not typos.
+- Rows unchanged: 809,682. Baselines re-run: only Linear Regression changed, RMSE 14.6175 → 14.6180.
+
+It looks like the numbers remain valid

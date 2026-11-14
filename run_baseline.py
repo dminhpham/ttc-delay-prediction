@@ -23,7 +23,7 @@ import pandas as pd
 import sklearn
 import yaml
 
-from src.data.clean import clean_direction, clean_route, filter_target, parse_datetime
+from src.data.clean import clean_direction, clean_route, filter_target, parse_datetime, clean_incident
 from src.data.load import load_data, raw_data_dir
 from src.data.split import get_split
 from src.evaluate import bootstrap_mae_ci, mae, rmse
@@ -64,6 +64,7 @@ def clean_with_counts(config):
     df = parse_datetime(df)
     df = clean_direction(df)
     df = clean_route(df, config)
+    df = clean_incident(df)
     df = filter_target(df, config)
     counts["cleaned"] = len(df)
     return df, counts

@@ -63,13 +63,35 @@ def filter_target(df: pd.DataFrame, config):
     print(f"Rows out {df.shape[0]}")
     return df
 
+
+# Spelling variants of the same incident type, found in notebooks/raw_data_profile.ipynb
+INCIDENT_MAP = {
+    "Securitty": "Security",
+    "Road Block - Non-TTC Collision": "Road Blocked - NON-TTC Collision",
+    "Roadblock by Collision - Non-TTC": "Road Blocked - NON-TTC Collision",
+    "e": None,          # not a real incident type -> treated as missing
+}
+
+def clean_incident(df: pd.DataFrame):
+    df = df.copy()
+    print(f"Rows in {df.shape[0]}")
+    print(f"distinct incidents before: {df['incident'].nunique()}")
+    df["incident"] = df["incident"].str.strip()          # 'Late  ' -> 'Late'
+    df["incident"] = df["incident"].replace(INCIDENT_MAP)
+    print(f"distinct incidents after: {df['incident'].nunique()}")
+    print(f"Rows out {df.shape[0]}")
+    return df
+
 def clean_data(config):
     df = load_data()
     df = parse_datetime(df)
     df = clean_direction(df)
     df = clean_route(df, config)
+    df = clean_incident(df)
     df = filter_target(df, config)
     return df    
+
+
 if __name__ == "__main__":
     with open("config/config.yaml") as f:
         config = yaml.safe_load(f)
