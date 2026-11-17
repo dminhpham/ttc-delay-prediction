@@ -59,3 +59,19 @@ the tuned range. It did, and by more than I expected: I didn't expect it to also
 lose to the simple baselines.
 
 **Decision:** Don't use the untuned tree. Next, tune `max_depth` and `min_samples_leaf`
+
+
+### Nov 16 — Tuning plan
+The untuned tree memorised the training data (training MAE 1.11,
+validation MAE 9.10). Before trying other settings, I'm writing down what I will try and how
+I will pick the winner.
+
+- **Decision Tree:** `max_depth` 4, 8, 12, 16, 20, no limit × `min_samples_leaf` 1, 20, 100,
+  500 = 24 fits. Depth limits how many questions the tree can ask. Leaf size sets the smallest number of past incidents a prediction can be based on. The grid goes from
+  "too simple" (depth 4) to "memorising"
+- **Ridge:** `alpha` 0.1, 1, 10, 100, 1000 = 5 fits. Alpha is how strongly large
+  coefficients are penalised.
+- **Random Forest:** 100 trees, `max_depth` 12 or 20 × `min_samples_leaf` 20 or 100, with
+  `max_features` fixed at 0.5 = 4 fits.
+
+**How I will pick the winner:** lowest validation MAE on 2023.

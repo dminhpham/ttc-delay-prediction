@@ -16,4 +16,17 @@ route:
   min: 1
   max: 999
 
+tuning:
+  quick_fraction: 0.2         # --quick mode trains on 20% of the training rows
+  seeds: [42, 0, 1, 2, 3]     # refit the winner with each seed, report mean ± std
+  decision_tree:
+    max_depth: [4, 8, 12, 16, 20, null]   # null = no limit (becomes Python None) # Test to see the sweet spt
+    min_samples_leaf: [1, 20, 100, 500]
+  ridge:
+    alpha: [0.1, 1, 10, 100, 1000] # penalty for large coefficients
+  random_forest: 
+    n_estimators: 100 # sklearn's default
+    max_depth: [12, 20]
+    min_samples_leaf: [20, 100]
+    max_features: 0.5
 
