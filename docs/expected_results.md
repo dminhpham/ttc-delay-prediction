@@ -63,6 +63,45 @@ with 7.17 min over all training years.
 Any of these gets investigated before it is reported.
 
 ---
-Drafted by Minh Pham. Numbers computed on the training split, then reproduced by
-Minh in `notebooks/expected_results.ipynb`. 
-Reviewed by Selin (Ngoc Kieu Minh Do): Approved on Oct 14.
+
+## Decision Tree (Milestone 5), before the tree is trained
+
+**What we already knew when writing this:** the 2023 scores of the M3 baselines
+(`results/baseline_table.csv`) and the 2023 delay summary (notebook Section 5). The tree's 2023
+score was unknown: no tree had been trained.
+
+**Evidence:** `notebooks/expected_results.ipynb`, Section 6. We held back 2022 as a practice test
+inside the training years: learn from 2014–2021, test on 2022. Instead of a real tree we used
+"fake trees": group similar incidents and predict the group's mean, which is what a tree leaf does.
+
+### Expectations for validation (2023)
+
+| Model | Expected validation MAE | Expected validation RMSE |
+|---|---|---|
+| Decision Tree (tuned) | **6.6 – 7.2 min**: about the same as the route × hour median (6.97) | **14.0 – 16.0 min**: clearly better than the route × hour median (17.62), close to Linear Regression (14.62) |
+
+### Reasoning
+
+1. **The fake tree ties our best baseline.** On the 2022 practice test, the best fake trees score
+   6.36–6.58 MAE, and the route × hour median scores 6.39.
+2. **Two effects cancel out.** Smaller, more specific groups help by about 0.2 min. But a tree
+   predicts the group's **mean**, not its median, and that costs 0.15–0.5 min: a few very long
+   delays pull the mean up, so it is too high for most normal incidents.
+3. **2023 is harder than 2022.** Delays are longer in 2023 (median 10 → 11, mean 15.65 → 16.78),
+   and every baseline scored 0.4–0.6 min worse on MAE and about 5% worse on RMSE in 2023.
+   Adding that to the fake-tree scores gives 6.76–7.18. A real tree picks its own groups and may do
+   a little better than our hand-made ones, so we lowered the bottom of the range to 6.6.
+4. **RMSE should improve a lot.** RMSE punishes big misses. Predicting the mean is better for big
+   misses, and a tree is built to reduce squared error, like Linear Regression. The fake trees'
+   RMSE (13.95–15.10 on 2022, plus 5%) gives 14.6–15.9; a real tree may do slightly better.
+
+### What would surprise us
+
+- **Tree MAE below 6.4**: better than any fake tree, even after the 2023 shift. Check for leakage first.
+- **Tree MAE above 7.71** (worse than Linear Regression): suspect a bug or bad settings.
+- **Tree RMSE above 17.6** (worse than the route × hour median): this would contradict reason 4.
+
+Any of these gets investigated before it is reported.
+
+---
+
