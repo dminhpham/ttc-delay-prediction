@@ -59,3 +59,70 @@ the tuned range. It did, and by more than I expected: I didn't expect it to also
 lose to the simple baselines.
 
 **Decision:** Don't use the untuned tree. Next, tune `max_depth` and `min_samples_leaf`
+
+
+### Nov 16 — Tuning plan
+The untuned tree memorised the training data (training MAE 1.11,
+validation MAE 9.10). Before trying other settings, I'm writing down what I will try and how
+I will pick the winner.
+
+- **Decision Tree:** `max_depth` 4, 8, 12, 16, 20, no limit × `min_samples_leaf` 1, 20, 100,
+  500 = 24 fits. Depth limits how many questions the tree can ask. Leaf size sets the smallest number of past incidents a prediction can be based on. The grid goes from
+  "too simple" (depth 4) to "memorising"
+- **Ridge:** `alpha` 0.1, 1, 10, 100, 1000 = 5 fits. Alpha is how strongly large
+  coefficients are penalised.
+- **Random Forest:** 100 trees, `max_depth` 12 or 20 × `min_samples_leaf` 20 or 100, with
+  `max_features` fixed at 0.5 = 4 fits.
+
+**How I will pick the winner:** lowest validation MAE on 2023.
+
+
+### Nov 19 — Tree grid, quick mode (testing the code)
+**Setup:** `python run_experiments.py --quick`. All 24 settings from the Nov 16 plan, trained on
+20% of the training rows (136,695, sampled with seed 42). Scored on the same 62,924 rows from 2023.
+24 fits in 84 s. This run was to check that the code works, not to pick the winner.
+
+**Result (top 3 and worst):**
+
+| max_depth | min_samples_leaf | Training MAE | Validation MAE |
+|---|---|---|---|
+| no limit | 100 | 6.04 | **6.98** |
+| 20 | 100 | 6.07 | 6.98 |
+| 16 | 100 | 6.18 | 7.00 |
+| no limit | 1 | 0.36 | 9.41 |
+
+**What I noticed:**
+1. The top 3 all use leaf 100. Once every guess is based on 100+ past incidents, depth hardly matters.
+2. With leaf 1, validation MAE gets worse the deeper the tree goes (7.34 → 9.41). That is overfitting.
+3. Bug: `max_depth=None` was saved as an empty value in the CSV. I now save it as the text "None".
+
+**Decision:** The code works. Run the full grid.
+
+### Nov 19 — Tree grid, full training set (total training time is about 19min)
+**Setup:** `python run_experiments.py`. Same 24 settings, all 683,475 training rows, same 2023 rows.
+24 fits in 1,162 s (about 19 min). Results in `results/tuning_tree.csv`.
+
+**Result:**
+
+| Model | Training MAE | Validation MAE (95% CI) | Validation RMSE |
+|---|---|---|---|
+| **Tree: no limit, leaf 100 (winner)** | 5.58 | **6.64** (6.54–6.74) | **14.22** |
+| Tree: depth 20, leaf 100 (runner-up) | 5.71 | 6.72 (6.62–6.82) | 14.24 |
+| Tree: no limit, leaf 1 (= untuned) | 1.11 | 9.10 | 20.39 |
+| Route × hour median | — | 6.97 (6.83–7.09) | 17.62 |
+| Linear Regression | — | 7.71 (7.60–7.80) | 14.62 |
+| Global median | — | 8.28 (8.14–8.42) | 18.76 |
+
+The winner took 34 s to train. The untuned tree took about 11 min.
+
+**What I noticed:**
+1. I expected 6.6–7.2. It landed at 6.64, near the bottom of the range.
+2. **Best model so far.** It beats route × hour by 0.33 min, and their intervals don't overlap.
+3. **Winner vs runner-up:** their intervals overlap, so they are close to a tie. My rule is lowest
+   validation MAE, so the winner is no limit / leaf 100.
+4. **Less overfitting.** The gap between training and validation MAE went from 8 min
+   (1.11 vs 9.10) to 1 min (5.58 vs 6.64). Big leaves stop the tree from copying single incidents.
+5. **Same result as before.** No limit / leaf 1 gave 9.10, exactly the untuned run from Nov 15.
+   Same code and seed give the same number.
+
+**Decision:** Use the tree with `max_depth=None, min_samples_leaf=100`. 
