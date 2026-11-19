@@ -85,7 +85,6 @@ def _as_arrays(y_true, y_pred):
 
 
 if __name__ == "__main__":
-    # Self-check with a toy example you can do by hand
     y = np.array([10, 33, 10, 18, 10])
     pred = np.array([12.73, 18.42, 12.24, 16.08, 14.37])
     print(f"MAE {mae(y, pred):.2f}  RMSE {rmse(y, pred):.2f}   (expected 5.17 and 7.04)")

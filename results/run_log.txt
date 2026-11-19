@@ -1,8 +1,8 @@
-date: 2026-10-13T16:20:03
+date: 2026-11-14T15:02:04
 command: python run_baseline.py
-git commit: 11d030be490d483eacb87a674b76e0c415a92011
+git commit: a062f833bdf35e7b368f483c680364694e2006ac
 raw data version (last commit touching data/raw/csv): 87313fa9967fabd0533e7777b885d01b0cbf4895
-python: 3.14.0 (macOS-14.1.1-arm64-arm-64bit-Mach-O)
+python: 3.13.7 (Windows-11-10.0.26200-SP0)
 numpy 2.5.3, pandas 3.0.6, scikit-learn 1.9.1, pyyaml 6.0.3
 
 config:
@@ -43,7 +43,7 @@ Linear Regression negative predictions on validation: 0
 
 validation 2023:
               model  val_mae  mae_ci_low  mae_ci_high  val_rmse                                        expected_mae
-      Global median   8.2812      8.1365       8.4155   18.7626                                             7.7â€“8.5
+      Global median   8.2812      8.1365       8.4155   18.7626                                             7.7–8.5
         Global mean   8.5543      8.4244       8.6757   17.8139                        worse than the global median
-Route x hour median   6.9662      6.8327       7.0903   17.6188               0.2â€“0.6 better than the global median
-  Linear Regression   7.7055      7.5995       7.8038   14.6175 0.5 better than the global median to slightly worse
+Route x hour median   6.9662      6.8327       7.0903   17.6188               0.2–0.6 better than the global median
+  Linear Regression   7.7055      7.5995       7.8040   14.6180 0.5 better than the global median to slightly worse
