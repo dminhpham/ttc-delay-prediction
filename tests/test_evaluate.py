@@ -5,7 +5,13 @@ import math
 
 import numpy as np
 
-from src.evaluate import bootstrap_ci, bootstrap_mae_ci, evaluate, mae, rmse
+import os
+import tempfile
+
+import pandas as pd
+
+from src.evaluate import bootstrap_ci, bootstrap_diff_ci, bootstrap_mae_ci, evaluate, mae, rmse
+from src.experiment_log import COLUMNS, log_experiment
 
 
 def test_toy_example_from_plan():
@@ -58,6 +64,49 @@ def test_rejects_bad_input():
             continue
         raise AssertionError(f"mae({y}, {pred}) should raise ValueError")
 
+
+
+def test_paired_diff_toy_example_from_plan():
+    # MAE(A) = (2 + 0 + 5) / 3 = 2.33, MAE(B) = (0 + 5 + 0) / 3 = 1.67, difference 0.67
+    y = np.array([10, 20, 30])
+    a = np.array([12, 20, 25])
+    b = np.array([10, 25, 30])
+    diff, low, high = bootstrap_diff_ci(y, a, b, n_boot=500)
+    assert round(diff, 2) == 0.67, diff
+    assert low <= diff <= high
+
+
+def test_paired_diff_identical_models_is_exactly_zero():
+    y = np.array([5.0, 10.0, 60.0, 8.0])
+    p = np.array([10.0, 10.0, 10.0, 10.0])
+    assert bootstrap_diff_ci(y, p, p, n_boot=200) == (0.0, 0.0, 0.0)
+
+
+def test_paired_diff_is_reproducible():
+    rng = np.random.default_rng(1)
+    y = rng.exponential(12, size=1000)
+    a, b = np.full_like(y, 10.0), np.full_like(y, 13.0)
+    assert bootstrap_diff_ci(y, a, b, seed=42) == bootstrap_diff_ci(y, a, b, seed=42)
+
+
+def test_log_appends_and_writes_header_once():
+    with tempfile.TemporaryDirectory() as d:
+        path = os.path.join(d, "log.csv")
+        log_experiment({"experiment": "toy", "model": "A", "val_mae": 1.0}, path=path)
+        log_experiment({"experiment": "toy", "model": "B", "val_mae": 2.0}, path=path)
+        df = pd.read_csv(path)
+        assert list(df.columns) == COLUMNS
+        assert len(df) == 2 and list(df["run_id"]) == [1, 2]
+        assert list(df["model"]) == ["A", "B"]
+
+
+def test_log_rejects_unknown_column():
+    with tempfile.TemporaryDirectory() as d:
+        try:
+            log_experiment({"not_a_column": 1}, path=os.path.join(d, "log.csv"))
+        except ValueError:
+            return
+        raise AssertionError("unknown column should raise ValueError")
 
 if __name__ == "__main__":
     tests = [f for name, f in sorted(globals().items()) if name.startswith("test_") and callable(f)]
