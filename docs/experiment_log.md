@@ -126,3 +126,33 @@ The winner took 34 s to train. The untuned tree took about 11 min.
    Same code and seed give the same number.
 
 **Decision:** Use the tree with `max_depth=None, min_samples_leaf=100`. 
+
+### Nov 20 — Training window (experiment B, robustness)
+**Question:** Does recent data beat more data? Delays drift upward after 2020, so a model trained
+only on recent years might fit 2023 better.
+
+**Setup:** `python run_training_window.py`. The tuned tree (`max_depth=None, min_samples_leaf=100`)
+trained on three windows, each scored on the same 62,924 rows from 2023. Paired bootstrap
+(1,000 resamples, seed 42) for MAE(window) − MAE(2014–2022). Results in
+`results/training_window.csv`; one row per fit in `results/experiment_log.csv`.
+
+**Result:**
+
+| Training years | Rows | Training MAE | Validation MAE (95% CI) | Validation RMSE | Δ MAE vs 2014–22 (95% CI) | Fit time |
+|---|---|---|---|---|---|---|
+| 2014–2022 | 683,475 | 5.58 | **6.64** (6.54–6.75) | 14.22 | — | 16.8 s |
+| 2018–2022 | 321,959 | 5.99 | 6.70 (6.59–6.79) | 14.16 | +0.05 (+0.02 to +0.08) | 4.7 s |
+| 2020–2022 | 163,476 | 5.74 | 6.70 (6.59–6.79) | **13.96** | +0.05 (+0.01 to +0.09) | 1.7 s |
+
+**What I noticed:**
+1. **More data wins on MAE, but only just.** Both shorter windows are about 0.05 min (3 seconds)
+   worse. The paired intervals exclude 0, so this is unlikely to be luck, but it is far too small to
+   matter to a rider.
+2. **Recent data wins slightly on RMSE.** 2020–2022 has the lowest RMSE (13.96 vs 14.22). Recent
+   years have more long delays, like 2023, so the tree misses them by less. We did not compute a
+   paired interval for RMSE, so this is an observation, not a result.
+3. The 2014–2022 row (6.643) is exactly the tuning-grid winner from Nov 19, so the run reproduces.
+4. Training on 2020–2022 is about 10× faster for almost the same accuracy.
+
+**Decision:** Keep training on 2014–2022 (best MAE, our primary metric). Report the RMSE trade-off
+as a robustness finding in R5.
