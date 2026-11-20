@@ -58,16 +58,27 @@ separate folder (`~/m5-check`), using a clean virtual environment with the exact
 ### Commands run (commit `866f1c3`)
 cd ~
 git clone https://github.com/dminhpham/ttc-delay-prediction.git m5-check
+
 cd m5-check
+
 /opt/homebrew/bin/python3.14 -m venv .venv
+
 source .venv/bin/activate
+
 pip install -r requirements.txt
+
 python -m tests.test_no_leakage
+
 python -m tests.test_filter
+
 python -m tests.test_clean_incident
+
 python -m tests.test_evaluate
+
 python run_baseline.py
+
 python run_experiments.py
+
 python run_training_window.py
 
 ### Run summary (Selin)
