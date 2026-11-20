@@ -62,6 +62,37 @@ def bootstrap_mae_ci(y_true, y_pred, n_boot=1000, seed=42):
     return bootstrap_ci(y_true, y_pred, mae, n_boot=n_boot, seed=seed)
 
 
+def bootstrap_diff_ci(y_true, pred_a, pred_b, n_boot=1000, seed=42, alpha=0.05, chunk=50):
+    """
+    Paired bootstrap for MAE(A) - MAE(B) on the same rows.
+
+    Each resample draws the same row indices for both models, so both face the same hard incidents
+    and that luck cancels out. Returns (diff, low, high). If the interval excludes 0, the
+    difference is unlikely to be luck. A negative diff means model A is better (lower MAE).
+    """
+    y_true, pred_a = _as_arrays(y_true, pred_a)
+    _, pred_b = _as_arrays(y_true, pred_b)
+    n = len(y_true)
+    if n == 0:
+        raise ValueError("cannot bootstrap an empty sample")
+
+    err_a = np.abs(y_true - pred_a)
+    err_b = np.abs(y_true - pred_b)
+    diff = float(err_a.mean() - err_b.mean())
+
+    rng = np.random.default_rng(seed)
+    diffs = np.empty(n_boot)
+    done = 0
+    while done < n_boot:
+        size = min(chunk, n_boot - done)
+        idx = rng.integers(0, n, size=(size, n))  # the SAME idx is used for both models
+        diffs[done:done + size] = err_a[idx].mean(axis=1) - err_b[idx].mean(axis=1)
+        done += size
+
+    low, high = np.percentile(diffs, [100 * alpha / 2, 100 * (1 - alpha / 2)])
+    return diff, float(low), float(high)
+
+
 def evaluate(y_true, y_pred, n_boot=1000, seed=42) -> dict:
     """MAE and RMSE with 95% bootstrap intervals, plus the number of rows scored."""
     y_true, y_pred = _as_arrays(y_true, y_pred)
