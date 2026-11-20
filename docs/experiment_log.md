@@ -1,4 +1,4 @@
-### Nov 15 — Untuned Decision Tree (first fit)
+### Nov 15 - Untuned Decision Tree (first fit)
 **Setup:** `python -m src.models.tree`. `DecisionTreeRegressor(random_state=42)`, no other settings.
 Same preprocessor as Linear Regression. Trained on 2014–2022 (683,475 rows). Not scored on 2023 yet.
 - **Result:** depth 51, 397,367 leaves, 1.7 training rows per leaf on average. Training took about 15 minutes.
@@ -9,7 +9,7 @@ different delays, so no split can separate them.
 larger, more stable leaves. Expect the untuned tree to score worse on 2023 than the tuned range in
 `docs/expected_results.md` (6.6–7.2 MAE).
 
-### Nov 15 — Untuned Decision Tree, scored on 2023
+### Nov 15 - Untuned Decision Tree, scored on 2023
 **Setup:** Same tree as above, same command. This time I also timed the training and scored
 the tree on two sets of rows:
 - the **training rows** (2014–2022, 683,475 rows), which the tree has already seen
@@ -19,7 +19,7 @@ the tree on two sets of rows:
 
 | Rows scored | MAE (min) | RMSE (min) |
 |---|---|---|
-| Training 2014–2022 | 1.11 | — |
+| Training 2014–2022 | 1.11 | - |
 | Validation 2023 | **9.10** (95% CI 8.96–9.24) | **20.39** (95% CI 20.02–20.77) |
 
 For comparison, the M3 baselines on the same 2023 rows:
@@ -32,7 +32,7 @@ For comparison, the M3 baselines on the same 2023 rows:
 | **Untuned tree** | **9.10** | **20.39** |
 
 Training took about 11 minutes, not the 15, I guessed above. Predicting all of 2023
-took 0.1 s.
+took 0.1s.
 
 **What I noticed:**
 1. **Huge difference between the two sets of rows.** On rows it has seen, the tree is off by
@@ -61,7 +61,7 @@ lose to the simple baselines.
 **Decision:** Don't use the untuned tree. Next, tune `max_depth` and `min_samples_leaf`
 
 
-### Nov 16 — Tuning plan
+### Nov 16 - Tuning plan
 The untuned tree memorised the training data (training MAE 1.11,
 validation MAE 9.10). Before trying other settings, I'm writing down what I will try and how
 I will pick the winner.
@@ -77,10 +77,10 @@ I will pick the winner.
 **How I will pick the winner:** lowest validation MAE on 2023.
 
 
-### Nov 19 — Tree grid, quick mode (testing the code)
+### Nov 19 - Tree grid, quick mode (testing the code)
 **Setup:** `python run_experiments.py --quick`. All 24 settings from the Nov 16 plan, trained on
 20% of the training rows (136,695, sampled with seed 42). Scored on the same 62,924 rows from 2023.
-24 fits in 84 s. This run was to check that the code works, not to pick the winner.
+24 fits in 84s. This run was to check that the code works, not to pick the winner.
 
 **Result (top 3 and worst):**
 
@@ -98,9 +98,9 @@ I will pick the winner.
 
 **Decision:** The code works. Run the full grid.
 
-### Nov 19 — Tree grid, full training set (total training time is about 19min)
+### Nov 19 - Tree grid, full training set (total training time is about 19min)
 **Setup:** `python run_experiments.py`. Same 24 settings, all 683,475 training rows, same 2023 rows.
-24 fits in 1,162 s (about 19 min). Results in `results/tuning_tree.csv`.
+24 fits in 1,162s (about 19 min). Results in `results/tuning_tree.csv`.
 
 **Result:**
 
@@ -109,11 +109,11 @@ I will pick the winner.
 | **Tree: no limit, leaf 100 (winner)** | 5.58 | **6.64** (6.54–6.74) | **14.22** |
 | Tree: depth 20, leaf 100 (runner-up) | 5.71 | 6.72 (6.62–6.82) | 14.24 |
 | Tree: no limit, leaf 1 (= untuned) | 1.11 | 9.10 | 20.39 |
-| Route × hour median | — | 6.97 (6.83–7.09) | 17.62 |
-| Linear Regression | — | 7.71 (7.60–7.80) | 14.62 |
-| Global median | — | 8.28 (8.14–8.42) | 18.76 |
+| Route × hour median | - | 6.97 (6.83–7.09) | 17.62 |
+| Linear Regression | - | 7.71 (7.60–7.80) | 14.62 |
+| Global median | - | 8.28 (8.14–8.42) | 18.76 |
 
-The winner took 34 s to train. The untuned tree took about 11 min.
+The winner took 34s to train. The untuned tree took about 11 min.
 
 **What I noticed:**
 1. I expected 6.6–7.2. It landed at 6.64, near the bottom of the range.
@@ -127,7 +127,7 @@ The winner took 34 s to train. The untuned tree took about 11 min.
 
 **Decision:** Use the tree with `max_depth=None, min_samples_leaf=100`. 
 
-### Nov 20 — Training window (experiment B, robustness)
+### Nov 20 - Training window (experiment B, robustness)
 **Question:** Does recent data beat more data? Delays drift upward after 2020, so a model trained
 only on recent years might fit 2023 better.
 
@@ -140,9 +140,9 @@ trained on three windows, each scored on the same 62,924 rows from 2023. Paired 
 
 | Training years | Rows | Training MAE | Validation MAE (95% CI) | Validation RMSE | Δ MAE vs 2014–22 (95% CI) | Fit time |
 |---|---|---|---|---|---|---|
-| 2014–2022 | 683,475 | 5.58 | **6.64** (6.54–6.75) | 14.22 | — | 16.8 s |
-| 2018–2022 | 321,959 | 5.99 | 6.70 (6.59–6.79) | 14.16 | +0.05 (+0.02 to +0.08) | 4.7 s |
-| 2020–2022 | 163,476 | 5.74 | 6.70 (6.59–6.79) | **13.96** | +0.05 (+0.01 to +0.09) | 1.7 s |
+| 2014–2022 | 683,475 | 5.58 | **6.64** (6.54–6.75) | 14.22 | - | 16.8s |
+| 2018–2022 | 321,959 | 5.99 | 6.70 (6.59–6.79) | 14.16 | +0.05 (+0.02 to +0.08) | 4.7s |
+| 2020–2022 | 163,476 | 5.74 | 6.70 (6.59–6.79) | **13.96** | +0.05 (+0.01 to +0.09) | 1.7s |
 
 **What I noticed:**
 1. **More data wins on MAE, but only just.** Both shorter windows are about 0.05 min (3 seconds)
