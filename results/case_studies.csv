@@ -1,0 +1,16 @@
+date,time,mode,route,incident,location,direction,y_true,y_pred,category
+2023-08-20,10:45,bus,9,Diversion,BELLEAMY AND PROGRESS,Unknown,84.0,36.8,"Long delay, under-predicted (true > 60, error > 40)"
+2023-09-21,17:51,bus,165,Diversion,WESTON AND ORMONT DR,East,105.0,37.3,"Long delay, under-predicted (true > 60, error > 40)"
+2023-10-09,14:21,bus,19,Diversion,BAY AND QUEEN,South,120.0,39.6,"Long delay, under-predicted (true > 60, error > 40)"
+2023-06-01,18:52,streetcar,505,Security,QUEEN AND BOULTEN,West,3.0,12.9,"Short delay, over-predicted (true <= 5, prediction >= 12)"
+2023-02-02,10:44,bus,134,Operations - Operator,SCARBOROUGH CENTRE STA,Unknown,5.0,17.0,"Short delay, over-predicted (true <= 5, prediction >= 12)"
+2023-10-14,18:34,bus,29,General Delay,NOVA SCOTIA AND PRINCE,North,5.0,16.0,"Short delay, over-predicted (true <= 5, prediction >= 12)"
+2023-10-31,18:52,bus,903,Mechanical,MIDLAND AND EGLINTON,West,2.0,11.8,Rare route x hour (< 5 in training)
+2023-08-02,01:17,bus,14,Emergency Services,CHAPLIN AND EGLINTON,West,31.0,19.7,Rare route x hour (< 5 in training)
+2023-12-07,04:16,bus,925,Operations - Operator,EGLINGTON DIVISION,North,10.0,9.3,Rare route x hour (< 5 in training)
+2023-05-19,07:54,bus,121,Diversion,ESPLANADE AND PRINCESS,Unknown,65.0,45.9,Hardest incident type (Diversion)
+2023-04-19,23:55,streetcar,510,Diversion,SPADINA STATION,Unknown,10.0,39.9,Hardest incident type (Diversion)
+2023-09-24,02:00,bus,335,Diversion,EGLINTON AND JANE,South,81.0,71.8,Hardest incident type (Diversion)
+2023-01-30,03:04,bus,336,Collision - TTC,FINCH AND MARTIN GROVE,East,30.0,31.0,Overnight (hour 0-4)
+2023-12-07,03:50,bus,339,General Delay,FINCH AND ALAMOSA DRIV,East,20.0,30.6,Overnight (hour 0-4)
+2023-12-21,03:01,streetcar,504,Operations,RONCESVALLES AND QUEEN,South,10.0,12.4,Overnight (hour 0-4)
