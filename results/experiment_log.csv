@@ -1,0 +1,4 @@
+run_id,date,git_commit,experiment,model,params,train_years,n_train,train_mae,val_mae,mae_ci_low,mae_ci_high,val_rmse,fit_seconds,observation
+1,2026-11-20T01:54:48,bc812f1,B training window,decision tree,"max_depth=None, min_samples_leaf=100",2014-2022,683475,5.5777,6.6434,6.54,6.745,14.2169,16.8,reference window (all training years)
+2,2026-11-20T01:54:48,bc812f1,B training window,decision tree,"max_depth=None, min_samples_leaf=100",2018-2022,321959,5.9849,6.6965,6.5924,6.7914,14.1592,4.7,"MAE(window) - MAE(2014-2022) = +0.053 [+0.024, +0.082] (paired bootstrap)"
+3,2026-11-20T01:54:48,bc812f1,B training window,decision tree,"max_depth=None, min_samples_leaf=100",2020-2022,163476,5.7375,6.6946,6.593,6.7856,13.9611,1.7,"MAE(window) - MAE(2014-2022) = +0.051 [+0.011, +0.088] (paired bootstrap)"
