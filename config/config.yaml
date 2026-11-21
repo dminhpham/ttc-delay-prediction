@@ -24,7 +24,7 @@ tuning:
     min_samples_leaf: [1, 20, 100, 500]
   ridge:
     alpha: [0.1, 1, 10, 100, 1000] # penalty for large coefficients
-  random_forest: 
+  random_forest: # Not yet implemented
     n_estimators: 100 # sklearn's default
     max_depth: [12, 20]
     min_samples_leaf: [20, 100]

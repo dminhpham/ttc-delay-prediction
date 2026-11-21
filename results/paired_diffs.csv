@@ -1,0 +1,4 @@
+comparison,mae_diff,diff_ci_low,diff_ci_high
+tree - Global median,-1.6378,-1.7133,-1.5642
+tree - Route x hour median,-0.3228,-0.3926,-0.2609
+tree - Linear Regression,-1.0621,-1.0964,-1.0265

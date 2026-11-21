@@ -1,0 +1,5 @@
+model,val_mae,mae_ci_low,mae_ci_high,val_rmse,rmse_ci_low,rmse_ci_high,fit_seconds,seed_mae_mean,seed_mae_sd
+Global median,8.2812,8.1365,8.4155,18.7626,18.3443,19.1425,0.0081,,
+Route x hour median,6.9662,6.8327,7.0903,17.6188,17.1918,18.0222,0.3578,,
+Linear Regression,7.7055,7.5995,7.804,14.618,14.3059,14.9436,2.1976,,
+Decision Tree (tuned),6.6434,6.54,6.745,14.2169,13.8933,14.5494,40.0624,6.6434,0.0001
