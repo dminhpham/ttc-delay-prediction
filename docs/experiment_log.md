@@ -153,6 +153,3 @@ trained on three windows, each scored on the same 62,924 rows from 2023. Paired 
    paired interval for RMSE, so this is an observation, not a result.
 3. The 2014–2022 row (6.643) is exactly the tuning-grid winner from Nov 19, so the run reproduces.
 4. Training on 2020–2022 is about 10× faster for almost the same accuracy.
-
-**Decision:** Keep training on 2014–2022 (best MAE, our primary metric). Report the RMSE trade-off
-as a robustness finding in R5.
